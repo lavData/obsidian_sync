@@ -1,2 +1,5 @@
 # obsidian_sync
 helo
+helllooooooooooooooooo
+cikfhejfhsjfhskjfhsdjkfshkdf
+hjsfjshfkjsdfhkjhjksjjhjsfhskjhkj
