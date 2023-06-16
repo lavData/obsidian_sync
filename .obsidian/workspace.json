@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "978cc975c4956497",
+        "id": "003ec6c0dd33c05e",
         "type": "tabs",
         "children": [
           {
-            "id": "4640108eeea5c792",
+            "id": "ff4b053b9b9fc100",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CDN.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CDN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CDN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "CDN.md"
               }
             }
           }
@@ -146,9 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d93854e75688268b",
+  "active": "ff4b053b9b9fc100",
   "lastOpenFiles": [
     "Learn Vimscript the Hard Way.pdf",
+    "CDN.md",
     "README.md"
   ]
 }
