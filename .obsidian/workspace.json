@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CDN.md",
+                "file": "Postgres.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6dbcdef5509947b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimize query Postgres.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CDN.md",
+                "file": "Optimize query Postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CDN.md",
+                "file": "Optimize query Postgres.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CDN.md"
+                "file": "Optimize query Postgres.md"
               }
             }
           }
@@ -147,10 +160,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff4b053b9b9fc100",
+  "active": "c6dbcdef5509947b",
   "lastOpenFiles": [
-    "Learn Vimscript the Hard Way.pdf",
+    "Postgres.md",
     "CDN.md",
+    "Optimize query Postgres.md",
+    "Learn Vimscript the Hard Way.pdf",
     "README.md"
   ]
 }
