@@ -386,3 +386,34 @@ Db.collection.updateOne(cond, changeValue): Cập nhật document đầu tiên t
 |---|---|
 |Lazy evaluation | Eager evaluation|
 |Tối ưu hóa các hoạt động, loại bỏ các tính toán không cần thiết và thực hiện xử lý song song hiệu quả| |
+
+---
+# Scrapy
+## Web scraping là gì?
+- Web Scraping là quá trình sử dụng bots (các phần mềm máy tính thực hiện các tác vụ tự động) để trích xuất dữ liệu và nội dung từ các website. Những dữ liệu thu thập được sau đó được lưu thành các định dạng hữu ích như bảng tính hoặc được truy xuất bằng API để phục vụ cho đa dạng mục đích khác nhau. ● Những công cụ phục vụ web scraping được gọi là web scraper.
+## Mục đích sử dụng của web scraping
+● Công cụ tìm kiếm. ● Nghiên cứu thị trường. ● Theo dõi giá cả. ● Website tổng hợp tin tức – Cổng thông tin.
+## Scrapy là gì?
+Scrapy là một Python Framework mã nguồn mở hỗ trợ cho việc Crawling và Scraping dữ liệu từ các trang Web bằng việc download HTML và extract data từ chúng.
+## Scrapy Components
+● Scrapy Engine ○ Engine chịu trách nhiệm điều khiển luồng giữa các Component trong hệ thống và triggering events when certain actions occur.
+● Scheduler ○ Có nhiệm vụ nhận request từ engine và đưa nó vào một queue để sắp xếp các URL theo một thứ tự Download.
+● Downloader ○ Có nhiệm vụ tải Source HTML của trang web và gửi nó về cho Engine.
+● Spider ○ Là một class được viết bởi Developer ,có nhiệm vụ phân tích response và extract các item,khởi tạo lại cái URL mới và nạp lại cho Scheduler qua Engine.
+● Item Pipeline ○ Có nhiệm vụ xử lý các Item sau khi được extract bằng spider ,sau đó lưu vào cơ sở dữ liệu.
+● Downloader middlewares ○ Là móc nối giữa Engine và Downloader ,chúng xử lý các request được đẩy từ engine và các response tạo ra từ Downloader.
+● Spider middlewares ○ Là móc nối giữa Engine và Spider ,chúng có nhiệm vụ xử lý input(response) của Spider và đầu ra ( items và request).
+## Ưu điểm
+- Scrapy miễn phí
+- Độ ổn định cao
+	- Scrapy được phát hành năm 2008, trải qua nhiều đợt cập nhật và sửa lỗi. Cộng đồng người dùng lớn thể hiện độ ổn định của nó.
+- Dễ học
+	- Scrapy sử dụng ngôn ngữ Python (dễ học)
+	- Tài nguyên và hướng dẫn phục vụ cho việc học rất nhiều
+	- Cộng đồng sử dụng lớn, có thể dễ tìm kiếm giải pháp cho các vấn đề gặp phải.
+- Dây dü công cu
+	- Scrapy là môt framework có du công cu can thiêt cho viêc thu thâp dü liêu web và các tinh nang manh me de quan ly moi giai doan thu thâp dû liêu web: Request manager, Selectors, Shell, Pipeline, ...
+• Scrapy cho phép thu thãp dù liëu phúc tap
+	• Scrapy có dù công cu cho cac công viêc thu thâp dü liêu tù các trang web phúc tap
+
+## Nhược điểm
