@@ -1,3 +1,11 @@
 {
-  "vimMode": true
+  "vimMode": true,
+  "showLineNumber": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 54
+  }
 }

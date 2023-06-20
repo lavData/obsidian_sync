@@ -30,7 +30,7 @@
             }
           },
           {
-            "id": "dc94d2b13c4c2a1d",
+            "id": "0f22809d1365308e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,9 +40,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "99df359415a8b235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "final exam.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -109,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ApplePressAndHoldEnabled.md",
+                "file": "final exam.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ApplePressAndHoldEnabled.md",
+                "file": "final exam.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ApplePressAndHoldEnabled.md"
+                "file": "final exam.md"
               }
             }
           }
@@ -170,10 +181,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc94d2b13c4c2a1d",
+  "active": "99df359415a8b235",
   "lastOpenFiles": [
-    "ApplePressAndHoldEnabled.md",
+    "Pasted image 20230620172010.png",
+    "Pasted image 20230620171938.png",
+    "Pasted image 20230620170216.png",
+    "Pasted image 20230620170134.png",
+    "Pasted image 20230620170118.png",
+    "Pasted image 20230620165943.png",
+    "Pasted image 20230620165902.png",
+    "Pasted image 20230620165757.png",
+    "Pasted image 20230620165737.png",
+    "Pasted image 20230620165716.png",
+    "Pasted image 20230620164845.png",
+    "final exam.pdf",
+    "final exam.md",
     "Learn Vimscript the Hard Way.pdf",
+    "ApplePressAndHoldEnabled.md",
     "Webhook.md",
     "Postgres.md",
     "Optimize query Postgres.md",
