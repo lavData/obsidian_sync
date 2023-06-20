@@ -281,3 +281,108 @@ Một số lợi ích tiêu biểu của datapine:
 ## Tổng kết
 + Phù hợp với các doanh nghiệp nhỏ chưa có đủ kinh phí
 + Những người mới bắt đầu và có đam mê trong việc phân tích dữ liệu nhưng chưa có nhiều kĩ thuật chuyên môn
+---
+# MongoDB and MapReduce
+## MongoDB
+### ĐỊNH NGHĨA
++ MongoDB là một hệ quản trị cơ sở dữ liệu phi cấu trúc hướng tài liệu (document+oriented) được phát triển bởi công ty MongoDB Inc. MongoDB là một cơ sở dữ liệu NoSQL + MongoDB là một lựa chọn phổ biến cho việc lưu trữ lượng lớn dữ liệu cần truy cập và cập nhật dễ dàng. + MongoDB là phần mềm miễn phí và mã nguồn mở, và có sẵn trên nhiều nền tảng. Nó cũng có sẵn dưới dạng dịch vụ dựa trên đám mây. 
+### CẤU TRÚC CỦA MongoDB
++ **Database:** Nó có thể được coi là vùng chứa vật lý cho dữ liệu. Mỗi database có tập file riêng trên file system. Mỗi database có thể chứa nhiều tập hợp (collections), và mỗi tập hợp chứa nhiều documents. + **Collection:** Một nhóm các database document có thể được gọi là một collection. RDBMS tương đương với collection là một table.  + **Document:** Một tập hợp các cặp key – value có thể được chỉ định là một document. Các document được liên kết với các dynamic schema. 
+### CÁCH HOẠT ĐỘNG CỦA MongoDB
++ MongoDB hoạt động theo cơ chế replica set và sharding để đảm bảo tính sẵn sàng và khả năng mở rộng của hệ thống. + Replica set là cơ chế sao lưu dữ liệu bằng cách sao chép các tài liệu từ một node (nút) chính đến các node sao lưu (secondary nodes).  + MongoDB sử dụng cơ chế sharding để phân tán dữ liệu trên nhiều node để mở rộng khả năng lưu trữ và xử lý của hệ thống. Các tài liệu được phân tán vào các shard (node lưu trữ dữ liệu) theo một key được xác định trước. Các yêu cầu truy vấn được chuyển đến shard tương ứng với key đó để tối ưu hiệu suất truy vấn.
+- Và một mongodb sử dụng sharding sẽ được gọi là một "sharded cluster". Một MongoDB sharded cluster bao gồm các thành phần chính sau: + **shard:** Mỗi shard chứa một phần của dữ liệu đã được shard. Mỗi shard này lại có thể được triển khai dưới dạng một replicaset để tăng tính dự phòng cho dữ liệu của nó quản lý. + **mongos:** Hoạt động như một query router, là phần giao diện với các client với sharded cluster. Client sẽ chỉ cần biết kết nối tới mongos, phần còn lại là kết nối tới shard nào, replicas nào sẽ do mongos điều phối và trong suốt với client + **config servers**: Chứa thông tin metadata và các tham số cấu hình cho cluster. Ví dụ thông tin cấu hình các shard, các replicaset.. được lưu ở config server này. Và config server cũng có thể triển khai dưới dạng replicaset.
+![[Pasted image 20230620181859.png]]
+### ƯU ĐIỂM
++ **Dữ Liệu Linh Hoạt:** Dữ liệu trong mongoDB được lưu trữ dưới dạng JSON, không bị bó buộc về số lượng field, kiểu dữ liệu …, có thể thoải mái insert dữ liệu mình muốn + **Hiệu Suất Cao:** MongoDB được thiết kế cho hiệu suất cao, và nó có thể mở rộng để xử lý lượng dữ liệu lớn + **Khả Năng Mở Rộng:**  MongoDB có khả năng mở rộng bằng cách thêm một hoặc nhiều node vào cluster + **Dễ Sử Dụng:** MongoDB tương đối dễ sử dụng, ngay cả đối với các lập trình viên không quen thuộc với các cơ sở dữ liệu NoSQL + **Mã Nguồn Mở**: MongoDB là phần mềm mã nguồn mở và có cộng đồng phát triển rất lớn
+### NHƯỢC ĐIỂM
++ **Không Ràng Buộc Dữ Liệu:** MongoDB không có các tính chất ràng buộc như trong RDBMS nên dễ bị làm sai dữ liệu + **Không hỗ trợ Transaction:** MongoDB không hỗ trợ transaction vì vậy có thể gặp khó khi xây dựng các hệ thống cần sử dụng transaction (như ngân hàng) + **Không Hỗ Trợ Join:**  Không hỗ trợ join giống như RDBMS nên khi viết function join trong code ta phải làm bằng tay khiến cho tốc độ truy vấn bị giảm. + **Sử Dụng Nhiều Bộ Nhớ**: do dữ liệu lưu dưới dạng key+value, các collection chỉ khác về value do đó key sẽ bị lặp lại. + **Bị Giới Hạn Kích Thước Bản Ghi**: mỗi document không được có kích thước quá 16Mb và level các document con trong 1 document không được quá 100
+### **SO SÁNH CÁC DATABASE SQL VỚI MongoDB NoSQL**
+
+|   |   |   |
+|---|---|---|
+||SQL|NoSQL|
+|Khả năng mở rộng|SQL databases có thể mở rộng theo chiều dọc|NoSQL databases có thể mở rộng theo chiều ngang|
+|Được sử dụng tốt nhất cho|RDBMS database là tùy chọn thích hợp để giải quyết các vấn đề về ACID.<br><br>Atomicity – Tính toàn vẹn<br><br>Consistency - Tính nhất quán<br><br>Isolation - Tính độc lập<br><br>Durability - Tính bền vững|NoSQL được sử dụng tốt nhất để giải quyết các vấn đề về tính khả dụng của dữ liệu|
+
+|   |   |   |
+|---|---|---|
+||SQL|NoSQL|
+|Hiệu suất|Thường có hiệu suất tốt khi truy vấn dữ liệu trong các bảng với quan hệ phức tạp.|Thường có hiệu suất tốt khi truy vấn dữ liệu không cần quan hệ với nhau và truy vấn dữ liệu theo tài liệu.|
+|Độ tin cậy và độ bảo mật|Có các tính năng bảo mật và kiểm soát truy cập tốt hơn, đồng thời có các tính năng sao lưu và phục hồi dữ liệu nhanh chóng.|Các hệ thống NoSQL thường được thiết kế để có thể xử lý các cấp độ lỗi khác nhau. Tuy nhiên, do tính năng mở rộng ngang của NoSQL, các hệ thống này thường khó bảo mật hơn các hệ thống SQL.|
+|Kết luận|Dự án đã có yêu cầu dữ liệu rõ ràng xác định quan hệ logic có thể được xác định trước.|Phù hợp với những dự án yêu cầu dữ liệu không liên quan, khó xác định, đơn giản mềm dẻo khi đang phát triển|
+
+| |SQL|NoSQL|
+|---|---|---|
+|Thiết kế cho|RDBMS truyền thống sử dụng cú pháp và truy vấn SQL để phân tích và lấy dữ liệu để có thêm thông tin chi tiết.|Hệ thống cơ sở dữ liệu NoSQL bao gồm nhiều loại công nghệ cơ sở dữ liệu khác nhau. Các cơ sở dữ liệu này được phát triển để đáp ứng nhu cầu trình bày cho sự phát triển của ứng dụng hiện đại.|
+|Loại|SQL databases là cơ sở dữ liệu dựa trên bảng|NoSQL databases có thể dựa trên tài liệu, cặp key-value, cơ sở dữ liệu biểu đồ|
+|Cấu trúc dữ liệu|Cấu trúc dữ liệu phải được xác định trước và có thể thay đổi ít. Việc thêm hoặc sửa các cột phải được thực hiện bằng các câu lệnh ALTER TABLE và có thể ảnh hưởng đến hiệu suất truy vấn|Cấu trúc dữ liệu không cần được xác định trước và có thể thay đổi dễ dàng.|
+
+### CÁC KIỂU DỮ LIỆU
+MongoDB hỗ trợ các kiểu dữ liệu sau:
+
++ **Binary Data**: Kiểu dữ liệu dạng nhị phân + **TimeStamp** : Một dãy các ký tự nhằm biểu diễn một thời điểm xác định. Giúp thuận tiện cho việc ghi chép hoặc đánh dấu thời điểm một Document được sửa đổi hoặc    được thêm vào. + **Object Id:** Kiểu dữ liệu này được sử dụng để lưu giữ ID của Document. Khi một document được thêm vào, Mongo sẽ tự động sinh và gán một    ObjectId ngẫu nhiên vào trường id của document. + **Regular expression**: Kiểu dữ liệu này được sử dụng để lưu giữ Regular Expresion. + **DBRef**: Là một kiểu dữ liệu đặc biệt sử dụng để tham chiếu đến tài liệu trong một collection khác trong cùng một database hoặc database khác.
+###  LỆNH QUERY
+Đếm số lượng document trả về :
+Db.collection.countDocuments(cond)
+Cập nhật:
+Db.collection.updateOne(cond, changeValue): Cập nhật document đầu tiên thỏa điều  kiện cond.
+
+## **MapReduce**
+### WHAT
+ - MapReduce là mô hình được thiết kế bởi Google, có khả năng lập trình xử lý các tập dữ liệu lớn song song và phân tán thuật toán trên 1 cụm máy tính. - Bao gồm hai giai đoạn: Map và Reduce - Map gồm bộ filter và sort trên dữ liệu - Reduce tổng hợp toàn bộ dữ liệu
+### MAP
+ - Tập dữ liệu đầu vào được tách thành các khối và đưa vào các hàm Map  - Hàm Map ánh xạ khối dữ liệu thành các cặp key -value - Sau khi Map, các cặp key-value được sắp xếp và gom nhóm theo key
+ ![[Pasted image 20230620183113.png]]
+### Reduce
+ Sau khi các cặp key-value được sắp xếp và gom nhóm sẽ được đưa vào Reduce
+Đầu ra của Reduce là tập hợp các giá trị được tính toán từ các cặp key-value
+![[Pasted image 20230620183143.png]]
+### Cách Hoạt Động
+![[Pasted image 20230620183210.png]]
+###  Các Thuật Ngữ 
++ **Job:** Một chương trình MapReduce hoàn chỉnh + **Task:** Chỉ việc thực hiện Map hoặc Reduce trên một phần dữ liệu + **Task Attempt:** mỗi task attempt là một lần thực hiện task trên một node. Mỗi task sẽ có giới hạn số lần attempt. + **Combiner:** Là một pha tuỳ chọn nằm giữa Map và Reduce nhằm gom nhóm các key-value giống nhau để giảm dung lượng dữ liệu + **Partitioner:** Là một pha nằm giữa Map và Reduce, phân chia đầu ra của pha Map cho các pha Reduce khác
+### Ưu Điểm
++ **Xử lý dữ liệu lớn:** Mapreduce có thể xử lý được các tập dữ liệu lớn với kích thước hàng petabyte. + **Tính phân tán:** Mapreduce có thể phân tán các thuật toán trên cùng một máy tính. + **Tính song song:** Mapreduce có khả năng xử lý một lượng lớn các dữ liệu song song đồng thời và phân phối các phép tính quy mô lớn. + **Tính linh hoạt:** Mapreduce cho phép người dùng định nghĩa các hàm để xử lý dữ liệu. + **Hiệu suất cao:** Khi triển khai mô hình lập trình MapReduce để xử lý dữ liệu lớn trên các cụm máy tính lớn hàng trăm, hàng nghìn máy tính thì hiệu suất cao
+### Nhược Điểm
++ Không phù hợp với các ứng dụng yêu cầu thời gian xử lý thấp. + Không phù hợp với các ứng dụng yêu cầu tính toán trên dữ liệu liên tục. + Hiệu suất thấp đối với các truy vấn phức tạp. + Tốn nhiều tài nguyên. + Khó khăn trong việc xử lý dữ liệu thay đổi.
+
+---
+# Polars
+## WHAT
+ + Là một thư viện xử lý dữ liệu dạng bảng biểu được base trên Rust + Tốc độ xử lý của thư viện này nhanh hơn cả Pandas + Bên cạnh đó thư viện này cũng dễ dùng và hữu ích không thua kém gì Pandas.
+## Differ with Pandas
+### Polars không sử dụng multi-index/index
+- **Pandas:** Đặt nhãn cho mỗi hàng bằng các chỉ mục (index)
+- **Polars:**
+	+ Mỗi hàng trong DataFrame được đại diện bởi một số nguyên thay vì chỉ mục
+	+ Tránh được các vấn đề liên quan đến việc sắp xếp và gán nhãn các hàng
+### Polars sử dụng Apache Arrow arrays để biểu diễn dữ liệu trong bộ nhớ trong khi Pandas dùng numpy
+**Apache Arrow array:** 
+- Là một cấu trúc dữ liệu cơ bản trong Apache Arrow. 
+- Nó đại diện cho một mảng cột gồm các giá trị của cùng 1 kiểu dữ liệu
+**Cấu trúc bộ nhớ**
+
+|Numpy array| Apache Arrow array|
+|---|---|
+|Được lưu trữ trong 1 khối bộ nhớ liền kề| Sử dụng cấu trúc bộ nhớ dạng cột, nơi dữ liệu được lưu trữ trong các cột riêng biệt. |
+|🡪Làm cho chúng hiệu quả trong việc truy cập các phần tử bằng cách sử dụng số học con trỏ. |🡪Cho phép nén, xử lý dữ liệu và trao đổi dữ liệu hiệu quả hơn giữa các hệ thống khác nhau|
+
+**Hiệu suất**
+- Numpy array: Bố cục bộ nhớ liền kề của NumPy cho phép thực hiện các hoạt động thông minh về phần tử hiệu quả và nó có các thuật toán được tối ưu hóa cho các tính toán số. 
+- Apache Arrow array: Bố cục dạng cột và các hoạt động được vecto hóa của Apache Arrow mang lại lợi thế trong các tình huống như nén, lọc dữ liệu và xử lý song song
+
+### Polars hỗ trợ nhiều hoạt động song song hơn Pandas
+
+
+|Numpy array| Apache Arrow array|
+|---|---|
+|Cung cấp hỗ trợ nâng cao cho các hoạt động song song so với Pandas.| Sử dụng cấu trúc bộ nhớ dạng cột, nơi dữ liệu được lưu trữ trong các cột riêng biệt. |
+| Tận dụng các thuật toán đa luồng và song song để xử lý dữ liệu song song, tận dụng các CPU đa lõi.||
+
+### Lazy evaluation  
+∙ Có 2 phương thức đánh giá: eager evaluation và lazy evaluation + **EAGER EVALUATION**: Code được đánh giá khi người dùng chạy + **LAZY EVALUATION**: Các tính toán không được thực hiện ngay lập tức. Thay vào đó chúng được ghi lại dưới dạng một kế hoạch tính toán và được tối ưu hóa trước khi thực hiện
+
+|Polaz| Pandas|
+|---|---|
+|Lazy evaluation | Eager evaluation|
+|Tối ưu hóa các hoạt động, loại bỏ các tính toán không cần thiết và thực hiện xử lý song song hiệu quả| |
