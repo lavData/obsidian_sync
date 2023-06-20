@@ -467,4 +467,38 @@ Filtering and sampling là phương pháp loại bỏ các thuộc tính không 
 Binned algorithm là phương pháp chia dữ liệu thành các khoảng giá trị nhất định và thay thế giá trị dữ liệu bằng các nhóm giá trị như vậy. Ví dụ, ta có thể chia các giá trị nhiệt độ thành các khoảng như lạnh, ấm, nóng để giảm độ chi tiết của dữ liệu.
 Dimensionality reduction là phương pháp giảm số lượng thuộc tính của dữ liệu bằng cách chuyển đổi tập dữ liệu ban đầu thành một tập dữ liệu mới có số chiều dữ liệu nhỏ hơn, nhưng vẫn giữ lại thông tin quan trọng của dữ liệu ban đầu. Ví dụ, ta có thể sử dụng phương pháp PCA (Principal Component Analysis) để giảm số chiều dữ liệu và tìm ra các thành phần chính của dữ liệu.
 
- 
+##  4. Trực quan hoá dữ liệu
+Tạo ra biểu đồ, hình ảnh nhằm diễn đạt dữ liệu/thông tin một cách dễ hiểu.
+**Bar chart:** Thường dùng để so sánh giữa các loại với nhau
+**Pie chart:** Giúp cảm nhận dễ dàng tỷ lệ phân bố của dữ liệu.
+**Scatter plot:** Biểu diễn mối quan hệ giữa trục x và y
+
+
+## 5. Kỹ thuật giảm chiều Principal Component Analysis (PCA)
+Chuyển dữ liệu n chiều sang dữ liệu m chiều (m<n) mà vẫn giữ được nhiều thông tin nhất có thể
+-> Cần tìm 1 hệ trục mới để việc giảm chiều hiệu quả.
+
+### Nền tảng toán của PCA
+**Độ lệch chuẩn (Standard deviation):** khoảng cách trung bình của các điểm dữ liệu đến điểm trung tâm (mean) $s = \sqrt{\frac{\sum^{n}_{i=1}{(X_i - \overline{X})^2}}{n - 1}}$
+**Phương sai (variance)** là một cách khác để đo độ lệch dữ liệu. $s^2 = \frac{\sum^{n}_{i=1}{(X_i - \overline{X})^2}}{n - 1}$$
+**Hiệp phương sai (covariance):** xem xét sự thay đổi của những chiều dữ liệu với nhau. $cov(X,Y) = \frac{\sum^n_{i=1}(X_i - \overline{X})(Y_i - \overline{Y})}{(n-1)}$
+**$X$ là chiều cao, $Y$ là điểm toán**
+- Nếu cov(X,Y) là số dương => Khi chiều cao tăng, thì điểm toán tăng. + Nếu cov(X,Y) là số âm => Khi chiều cao tăng, thì điểm số giảm. + Nếu cov(X,Y) bằng 0 => chiều cao và điểm số là độc lập (không ảnh hưởng nhau).
+- **Ma trận hiệp phương sai (covariance matrix)**
+• Nếu dữ liệu 3 chiều (x,y,z), ta cần tính mà trận hiệp phương sai
+như sau:
+![[Pasted image 20230620223811.png]]
+- **Vector riêng (Eignvectors):** vector riêng của 1 ma trận chỉ thay đổi độ dài mà không thay đổi hướng khi nhân với ma trận đó.
+![[Pasted image 20230620223913.png]]
+### Các bước tính PCA
+**Bước 1:** Chuẩn hóa (trừ trung bình)
+![[Pasted image 20230620224152.png]]
+**Bước 2**: Ma trận hiệp phương sai
+![[Pasted image 20230620224210.png]] 
+**Bước 3:** Tính vector riêng và giá trị riêng cho ma trận hiệp phương sai
+![[Pasted image 20230620224820.png]]
+**Bước 4**: Biến đổi dữ liệu ma trận riêng
+Dữ liệu mới = Ma Trận Riêng x Dữ Liệu Đã Chuẩn Hóa
+Lưu ý: tùy vào số lượng chiều muốn giảm mà ta sẽ lấy bao nhiêu cột tương ứng của ma trận riêng.
+
+## 6. Decision Tree
