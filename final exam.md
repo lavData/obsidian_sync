@@ -274,7 +274,7 @@ Một số lợi ích tiêu biểu của datapine:
 |Tiêu chí   |Data pine    |Tableu   | PowerBI  |
 |---|---|---|---|
 |Giao diện người dùng|Thân thiện, dễ sử dụng, tùy chỉnh|Thân thiện, trực quan nhưng có một số yêu cầu kỹ thuật để sử dụng|Thân thiện, trực quan, nhưng có một số tính năng phức tạp hơn Datapine|
-	|Truy cập dữ liệu|Đều cho phép người dùng kết nối với nhiều nguồn dữ liệu khác nhau| Same   |Same   |
+|Truy cập dữ liệu|Đều cho phép người dùng kết nối với nhiều nguồn dữ liệu khác nhau| Same   |Same   |
 |Phân tích dữ liệu|Tính năng phân tích dữ liệu cao cấp: phân tích dữ liệu tương quan, thời gian thực, định lượng và định tính|Tableau và Power BI có các tính năng phân tích dữ liệu mạnh mẽ hơn với các công cụ tạo đồ thị, tính toán trên nhiều bảng và phân tích dữ liệu địa lý| Same   |
 |Hiệu suất và tốc độ|Đều có tốc độ xử lý nhanh chóng, cho phép người dùng truy cập và phân tích dữ liệu nhanh chóng, hiệu quả|Same   |  Same |
 |Giá cả|Cung cấp các gói dịch vụ khác nhau|Giá khá cao, phù hợp với các doanh nghiệp lớn|  Same |
