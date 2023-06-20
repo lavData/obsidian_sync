@@ -502,3 +502,113 @@ Dữ liệu mới = Ma Trận Riêng x Dữ Liệu Đã Chuẩn Hóa
 Lưu ý: tùy vào số lượng chiều muốn giảm mà ta sẽ lấy bao nhiêu cột tương ứng của ma trận riêng.
 
 ## 6. Decision Tree
+### How to build a decision tree
+CART (Classification and Regression Trees) → uses **Gini Index(Classification)** as metric.
+ID3 (Iterative Dichotomiser 3) → uses **Entropy function** and Information gain as metrics.
+
+|Day| Outlook| Temperature| Humidity| Wind| Play|
+|---|---|---|---|---|---|
+|D1| Sunny| Hot| High| Weak| No|
+|D2| Sunny| Hot| High| Strong| No|
+|D3| Overcast| Hot| High| Weak| Yes|
+|D4| Rain| Mild| High| Weak| Yes|
+|D5| Rain| Cool| Normal| Weak| Yes|
+|D6| Rain| Cool| Normal| Strong| No|
+|D7| Overcast| Cool| Normal| Strong| Yes|
+|D8| Sunny| Mild| High| Weak| No|
+|D9| Sunny| Cool| Normal| Weak| Yes|
+|D10| Rain| Mild| Normal| Weak| Yes|
+|D11| Sunny| Mild| Normal| Strong| Yes|
+|D12| Overcast| Mild| High| Strong| Yes|
+|D13| Overcast| Hot| Normal| Weak| Yes|
+|D14| Rain| Mild| High| Strong| No|
+
+**Entropy**
+![[Pasted image 20230620230005.png]]
+**Information gain**
+Lấy giá trị lớn nhất 
+![[Pasted image 20230620230025.png]]
+![[Pasted image 20230620230038.png]]
+![[Pasted image 20230620230116.png]]
+**Gini index**
+Lấy gía trị nhỏ nhất
+![[Pasted image 20230620230317.png]]
+![[Pasted image 20230620230334.png]]
+### Categorical and Numerical data
+- **Numerical data** has meaning as a measurement, such as a person’s height, weight, IQ, or blood pressure
+- **Categorical data** represents characteristics such as a person’s gender, marital status, hometown, or the types of movies they like.
+### Decision tree for regression
+- Standard deviation
+
+|Day| Outlook| Temperature| Humidity| Wind| Play|
+|---|---|---|---|---|---|
+|D1| Rainy| Hot| High | False| 25|
+|D2| Rainy| Hot| High | True| 30|
+|D3| Overcast| Hot| High | False| 46|
+|D4| Sunny| Mild| High | False| 45|
+|D5| Sunny| Cool| Normal | False| 52|
+|D6| Sunny| Cool| Normal | True| 23|
+|D7| Overcast| Cool| Normal | True| 43|
+|D8| Rainy| Mild| High | False| 35|
+|D9| Rainy| Cool| Normal | False| 38|
+|D10| Sunny| Mild| Normal | False| 46|
+|D11| Rainy| Mild| Normal | True| 48|
+|D12| Overcast| Mild| High | True| 52|
+|D13| Overcast| Hot| Normal | False| 44|
+|D14| Sunny| Mild| High | True| 30|
+
+![[Pasted image 20230620231428.png]]
+- Standart deviation for a split
+![[Pasted image 20230620231501.png]]
+![[Pasted image 20230620231524.png]]
+### How to stop
+• Coefficient of variant. • The number of samples in a branch.
+### Pruning Tree
+**• Pruning Tree: to avoid overfitting.**
+• How: • Control tree's depth • Control the number of samples in each node.
+
+## 7. Support Vector Machine
+### Khái niệm  
+- **Margin:** là khoảng cách giữa một siêu phẳng đến điểm dữ liệu gần nhất cho từng class.
+- Trong trường hợp có thể phân loại dữ liệu bằng đường thẳng thì ok , còn nếu không thể (non- linear) thì sẽ dùng **kernel tricks** để biến đổi input → **margin** có thể thành siêu phẳng.
+- **SVM giúp cực đại hóa margin** từ đó thu được một siêu phẳng có khoảng cách lớn nhất đến các class → khoảng cách càng lớn thì sẽ giảm thiểu xung đột và bài toán phân lớp cho kết quả càng tốt
+### Multiclass classification
+**One vs Rest**: tính xác suất 1 điểm có thể thuộc vào class đó →chọn class có xác suất cao nhất
+**One vs One**: ví dụ A, B, C, D
+- classifier_AB → class A
+- classifier_AC → class A
+- classifier_AD → class A 
+- classifier_BC → class B
+- classifier_BD → class D
+- classifier_CD → class C
+=> class A
+## 9. Time Series
+### Một số tính chất của Time Series
+- **Tính tự tương quan:** Số liệu chuỗi thời gian thường có tính tự tương quan
+	- Đầu tư năm nay có liên hệ với đầu tư năm trước
+	- Tỷ lệ lạm phát của quý 1 năm nay có liên hệ với lạm phát của quý trước và của quý 1 năm trước
+- **Yếu tố mùa vụ:** Các số liệu kinh tế - xã hội thường chịu tác động của yếu tố mùa vụ.
+Giá trị của chuỗi thời gian tại một thời điểm hoặc một thời kì năm nay có xu hướng biến động giống như cùng thời điểm hay cùng kì năm trước.
+	- Giá cả các năm thường cao vào dịp Tết.
+	- Chi tiêu của người dân thường cao vào quý 1 và quý 3
+- **Yếu tố xu thế:** Đa phần các chuỗi thời gian thường có xu thế tăng hoặc giảm trong thời gian dài. Xu thế này có thể quan sát qua đồ thị của chuỗi
+	- GDP của các Việt Nam tăng lên theo năm do phát triển công nghệ, cải thiện nguồn nhân lực, gia tăng nhân tố đầu vào, ...
+	- Phát thải khí nhà kính của thế giới tăng theo năm do nhu cầu của khu vực sản xuất.
+	- Diện tích rừng trên thế giới có xu hướng giảm do ngày càng cần đất đai để phục vụ các mục đích khác.
+### Kỹ thuật làm trơn (smothing) dữ liệu
+- Smothing giúp xử lý yếu tố xu thế và ngẫu nhiên bằng cách sử dụng các bộ lọc tuyến tính.
+![[Pasted image 20230620232453.png]]
+###  Hàm tự tương quan ACF (autocorrelation function)
+- Hầu hết các chuỗi thời gian sẽ có sự tương quan với giá trị trễ của nó và các giá trị càng gần nhau thì tương quan càng mạnh hoặc các giá trị cùng thuộc 1 chu kì của chuỗi thì sẽ có tương quan cao
+- Ví dụ: cùng tháng trong chu kì năm hay cùng quí trong chu kì năm). Chính vì vậy hệ số này mới có tên là tự tương quan
+![[Pasted image 20230620232622.png]]
+**Nhận xét:**
+- Trục hoành là độ trễ, trục tung là giá trị của hệ số tự tương quan tương ứng với độ trễ. Dải màu xanh chính là khoảng tin cậy 95% để giá trị hệ số tự tương quan bằng 0.
+	- Nếu tại một độ trễ nhỏ nhất mà đoạn thẳng (vuông góc với trục hoành) và độ dài đại diện cho giá trị của hệ số tự tương quan nằm ngoài khoảng tin cậy thì đó chính là độ trễ phù hợp lớn nhất mà ta nên lựa chọn cho quá trình trung bình trượt MV(q).
+-  Nhìn chung bậc q không nên quá lớn.
+	- Thông thường chỉ chọn tối đa là 5.
+	- Đối với bài toán này toàn bộ các hệ số tự tương quan với bậc nhỏ hơn hoặc bằng 5 đều có giá trị nằm trong khoảng tin cậy 95% của 0.
+	- Do đó chúng ta có thể linh hoạt lựa chọn bậc q= 5 là vị trí mà hệ số tự tương quan lớn nhất.
+### Hàm tự tương quan riêng phần (PACF)
+- Về cơ bản tương quan riêng phần cũng là chỉ số đo lường hệ số tương quan như ACF.
+- Tuy nhiên vẫn có sự khác biệt đó là hệ số tương quan này loại bỏ ảnh hưởng của các chuỗi độ trễ trung gian
