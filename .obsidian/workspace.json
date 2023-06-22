@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Learn Vimscript the Hard Way.pdf"
+                "file": "books/Final Exam Data Analysis Advanced.pdf"
               }
             }
           }
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn Vimscript the Hard Way.pdf",
+                "file": "books/Final Exam Data Analysis Advanced.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learn Vimscript the Hard Way.pdf",
+                "file": "books/Final Exam Data Analysis Advanced.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learn Vimscript the Hard Way.pdf"
+                "file": "books/Final Exam Data Analysis Advanced.pdf"
               }
             }
           }
@@ -145,11 +144,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6dbcdef5509947b",
+  "active": "d93854e75688268b",
   "lastOpenFiles": [
+    "books/Learn Vimscript the Hard Way.pdf",
+    "books",
     "Postgres.md",
-    "Learn Vimscript the Hard Way.pdf",
-    "Database-System-Concepts-7th-Edition.pdf",
+    "books/Database-System-Concepts-7th-Edition.pdf",
     "Final Exam Data Analysis Advanced.md",
     "Webhook.md",
     "README.md",
@@ -159,7 +159,7 @@
     "attachments",
     "Pasted image 20230620164302.png",
     "Pasted image 20230620164139.png",
-    "Final Exam Data Analysis Advanced.pdf",
+    "books/Final Exam Data Analysis Advanced.pdf",
     "Pasted image 20230620232622.png",
     "Pasted image 20230620232453.png",
     "Pasted image 20230620231524.png",
