@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff4b053b9b9fc100",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Postgres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c6dbcdef5509947b",
             "type": "leaf",
             "state": {
@@ -28,33 +16,8 @@
                 "file": "Learn Vimscript the Hard Way.pdf"
               }
             }
-          },
-          {
-            "id": "0f22809d1365308e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ApplePressAndHoldEnabled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99df359415a8b235",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Final Exam Data Analysis Advanced.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Final Exam Data Analysis Advanced.md",
+                "file": "Learn Vimscript the Hard Way.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Final Exam Data Analysis Advanced.md",
+                "file": "Learn Vimscript the Hard Way.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Final Exam Data Analysis Advanced.md"
+                "file": "Learn Vimscript the Hard Way.pdf"
               }
             }
           }
@@ -182,8 +145,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99df359415a8b235",
+  "active": "c6dbcdef5509947b",
   "lastOpenFiles": [
+    "Postgres.md",
+    "Learn Vimscript the Hard Way.pdf",
+    "Database-System-Concepts-7th-Edition.pdf",
+    "Final Exam Data Analysis Advanced.md",
+    "Webhook.md",
+    "README.md",
+    "final exam.pdf",
+    "ApplePressAndHoldEnabled.md",
+    "attachments/Pasted image 20230621170045.png",
+    "attachments",
+    "Pasted image 20230620164302.png",
+    "Pasted image 20230620164139.png",
     "Final Exam Data Analysis Advanced.pdf",
     "Pasted image 20230620232622.png",
     "Pasted image 20230620232453.png",
@@ -192,17 +167,7 @@
     "Pasted image 20230620231428.png",
     "Pasted image 20230620230334.png",
     "Pasted image 20230620230317.png",
-    "Pasted image 20230620230116.png",
-    "Pasted image 20230620230038.png",
-    "Pasted image 20230620230025.png",
-    "final exam.pdf",
-    "Final Exam Data Analysis Advanced.md",
-    "Learn Vimscript the Hard Way.pdf",
-    "ApplePressAndHoldEnabled.md",
-    "Webhook.md",
-    "Postgres.md",
     "Optimize query Postgres.md",
-    "CDN.md",
-    "README.md"
+    "CDN.md"
   ]
 }
