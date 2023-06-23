@@ -6,14 +6,34 @@
       {
         "id": "003ec6c0dd33c05e",
         "type": "tabs",
+        "dimension": 43.123667377398725,
         "children": [
           {
             "id": "c6dbcdef5509947b",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "584893140f22d98f",
+        "type": "tabs",
+        "dimension": 56.876332622601275,
+        "children": [
+          {
+            "id": "226e005a1a222f13",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "books/Final Exam Data Analysis Advanced.pdf"
+                "file": "books/Database-System-Concepts-7th-Edition.pdf"
               }
             }
           }
@@ -67,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -83,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/Final Exam Data Analysis Advanced.pdf",
+                "file": "CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Final Exam Data Analysis Advanced.pdf",
+                "file": "CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Final Exam Data Analysis Advanced.pdf"
+                "file": "CLI.md"
               }
             }
           }
@@ -144,12 +165,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d93854e75688268b",
+  "active": "c6dbcdef5509947b",
   "lastOpenFiles": [
+    "Eval.md",
+    "CLI.md",
+    "Database System Concepts Note.md",
+    "books/Database-System-Concepts-7th-Edition.pdf",
     "books/Learn Vimscript the Hard Way.pdf",
+    "books/Final Exam Data Analysis Advanced.pdf",
     "books",
     "Postgres.md",
-    "books/Database-System-Concepts-7th-Edition.pdf",
     "Final Exam Data Analysis Advanced.md",
     "Webhook.md",
     "README.md",
@@ -159,7 +184,6 @@
     "attachments",
     "Pasted image 20230620164302.png",
     "Pasted image 20230620164139.png",
-    "books/Final Exam Data Analysis Advanced.pdf",
     "Pasted image 20230620232622.png",
     "Pasted image 20230620232453.png",
     "Pasted image 20230620231524.png",
