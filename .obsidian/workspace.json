@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database System Concepts Note.md",
+                "file": "How to Take Smart Notes by SönkeAhrens Note.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database System Concepts Note.md",
+                "file": "How to Take Smart Notes by SönkeAhrens Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database System Concepts Note.md",
+                "file": "How to Take Smart Notes by SönkeAhrens Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database System Concepts Note.md"
+                "file": "How to Take Smart Notes by SönkeAhrens Note.md"
               }
             }
           }
@@ -149,6 +149,10 @@
   },
   "active": "0faf0c99e859081f",
   "lastOpenFiles": [
+    "Database System Concepts Note.md",
+    "How to Take Smart Notes by SönkeAhrens Note.md",
+    "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
+    "books/Unconfirmed 826165.crdownload",
     "attachments/Pasted image 20230626002145.png",
     "attachments/Pasted image 20230626002012.png",
     "attachments/Pasted image 20230626001909.png",
@@ -158,7 +162,6 @@
     "attachments/Pasted image 20230626001537.png",
     "attachments/Pasted image 20230626001509.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
-    "Database System Concepts Note.md",
     "templates/toggle.md",
     "CLI.md",
     "Final Exam Data Analysis Advanced.md",
@@ -169,7 +172,6 @@
     "icons/Anki-icon.svg",
     "icons",
     "Anki-icon.svg",
-    "attachments/Pasted image 20230624202501.png",
     "Vim personal note.md",
     "books/Final Exam Data Analysis Advanced.pdf",
     "books",
