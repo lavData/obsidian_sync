@@ -8,14 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0faf0c99e859081f",
+            "id": "0f45b51300e7d0f1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "How to Take Smart Notes by SönkeAhrens Note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2e8cd1578970782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Why is not everybody using a slip-box and working effortlessly towards success.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb09512e32756a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fully qualified domain name (FQDN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21bd0ca3f815f580",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How to Take Smart Notes by SönkeAhrens Note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d501f9343187d9e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differ btw Objective and Subjective.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -81,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Differ btw Objective and Subjective.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Differ btw Objective and Subjective.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +173,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Differ btw Objective and Subjective.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,11 +194,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0faf0c99e859081f",
+  "active": "d501f9343187d9e3",
   "lastOpenFiles": [
-    "Final Exam Data Analysis Advanced.md",
     "How to Take Smart Notes by SönkeAhrens Note.md",
+    "Differ btw Objective and Subjective.md",
+    "How do I always see the essentials of something?.md",
+    "Why is not everybody using a slip-box and working effortlessly towards success.md",
+    "What diff between release and tag.md",
+    "Fully qualified domain name (FQDN).md",
+    "DNS for Services and Pods.md",
+    "attachments/Pasted image 20230703152858.png",
+    "minikube.md",
+    "kubectl.md",
+    "Vim personal note.md",
+    "Webhook.md",
+    "README.md",
+    "CDN.md",
+    "Eval.md",
     "Database System Concepts Note.md",
+    "Final Exam Data Analysis Advanced.md",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
     "attachments/Pasted image 20230626002145.png",
@@ -156,22 +226,16 @@
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates/toggle.md",
     "CLI.md",
-    "Eval.md",
     "Optimize query Postgres.md",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
     "icons/Anki-icon.svg",
     "icons",
-    "Anki-icon.svg",
-    "Vim personal note.md",
     "books/Final Exam Data Analysis Advanced.pdf",
     "books",
     "Postgres.md",
-    "Webhook.md",
-    "README.md",
     "final exam.pdf",
     "ApplePressAndHoldEnabled.md",
-    "attachments",
-    "CDN.md"
+    "attachments"
   ]
 }
