@@ -13,4 +13,4 @@ Objective:
 - Infor by research that are not biased
 
 Subjective:
-- 
+- All opinions are subjective
