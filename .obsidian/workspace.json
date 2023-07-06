@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Want to connect from a container to a service on the host.md",
+                "file": "Vim personal note.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tech",
+                "query": "tag:#network",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Want to connect from a container to a service on the host.md",
+                "file": "Vim personal note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Want to connect from a container to a service on the host.md",
+                "file": "Vim personal note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Want to connect from a container to a service on the host.md"
+                "file": "Vim personal note.md"
               }
             }
           }
@@ -198,15 +198,16 @@
   },
   "active": "0c5ccb02ea3a5ba7",
   "lastOpenFiles": [
-    "DOCKER - Explore networking features.md",
     "Want to connect from a container to a service on the host.md",
+    "DOCKER - Explore networking features.md",
+    "DNS for Services and Pods.md",
+    "git clone.md",
     "VPC.md",
     "attachments/Pasted image 20230704132612.png",
     "How to Take Smart Notes by SönkeAhrens Note.md",
     "v.md",
     "Why is not everybody using a slip-box and working effortlessly towards success.md",
     "Differ btw Objective and Subjective.md",
-    "DNS for Services and Pods.md",
     "Eval.md",
     "How do I always see the essentials of something?.md",
     "Vim personal note.md",
