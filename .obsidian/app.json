@@ -8,5 +8,6 @@
     "margin": "2",
     "downscalePercent": 94
   },
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "alwaysUpdateLinks": true
 }
