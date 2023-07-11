@@ -97,14 +97,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vacuum Postgres.md",
+                "file": "kubectl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "142d02e378c98b3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kubectl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fbaea25dce68dc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objects in Kubernetes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c326a2f76bccd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Labels and Selectors.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -133,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#database",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -171,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vacuum Postgres.md",
+                "file": "Labels and Selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vacuum Postgres.md",
+                "file": "Labels and Selectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vacuum Postgres.md"
+                "file": "Labels and Selectors.md"
               }
             }
           },
@@ -223,8 +260,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -241,17 +277,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25cac5d55c72286d",
+  "active": "00c326a2f76bccd4",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "Objects in Kubernetes.md",
+    "Labels and Selectors.md",
+    "kubectl.md",
+    "Want to connect from a container to a service on the host.md",
+    "DOCKER - Explore networking features.md",
     "Vacuum Postgres.md",
+    "Untitled.canvas",
     "MVCC.md",
     "Postgres.md",
     "Optimize query Postgres.md",
     "Why is not everybody using a slip-box and working effortlessly towards success.md",
     "Vim personal note.md",
-    "Want to connect from a container to a service on the host.md",
-    "DOCKER - Explore networking features.md",
     "DNS for Services and Pods.md",
     "git clone.md",
     "VPC.md",
@@ -266,11 +305,9 @@
     "Fully qualified domain name (FQDN).md",
     "attachments/Pasted image 20230703152858.png",
     "minikube.md",
-    "kubectl.md",
     "README.md",
     "CDN.md",
     "Database System Concepts Note.md",
-    "Final Exam Data Analysis Advanced.md",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
     "attachments/Pasted image 20230626002145.png",
