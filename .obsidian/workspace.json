@@ -133,14 +133,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Labels and Selectors.md",
+                "file": "kubectl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "889cbc42df3ec31e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Airbyte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a005abff087acc75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Airbyte Scale Workflow Orchestratrion Temporal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -208,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Labels and Selectors.md",
+                "file": "Airbyte Scale Workflow Orchestratrion Temporal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Labels and Selectors.md",
+                "file": "Airbyte Scale Workflow Orchestratrion Temporal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Labels and Selectors.md"
+                "file": "Airbyte Scale Workflow Orchestratrion Temporal.md"
               }
             }
           },
@@ -277,11 +301,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "00c326a2f76bccd4",
+  "active": "a005abff087acc75",
   "lastOpenFiles": [
+    "Airbyte.md",
+    "Airbyte Scale Workflow Orchestratrion Temporal.md",
     "Objects in Kubernetes.md",
-    "Labels and Selectors.md",
     "kubectl.md",
+    "Labels and Selectors.md",
+    "attachments/Pasted image 20230711120628.png",
     "Want to connect from a container to a service on the host.md",
     "DOCKER - Explore networking features.md",
     "Vacuum Postgres.md",
@@ -306,8 +333,6 @@
     "attachments/Pasted image 20230703152858.png",
     "minikube.md",
     "README.md",
-    "CDN.md",
-    "Database System Concepts Note.md",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
     "attachments/Pasted image 20230626002145.png",
@@ -317,7 +342,6 @@
     "attachments/Pasted image 20230626001821.png",
     "attachments/Pasted image 20230626001805.png",
     "attachments/Pasted image 20230626001537.png",
-    "attachments/Pasted image 20230626001509.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
