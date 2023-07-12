@@ -109,3 +109,6 @@ Find the ID and name of those instructors who earn more than the instructor whos
 
 ---
 # <mark style="background: #FFB8EBA6;">3.1 Overview of the SQL Query Language</mark>
+
+
+[[BLOB]]
