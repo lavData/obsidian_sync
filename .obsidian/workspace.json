@@ -169,14 +169,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BLOB.md",
+                "file": "Want to connect from a container to a service on the host.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1daab7a664646b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d008176f2fc5072",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is -c in CLI.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -205,7 +229,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,8 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -244,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOB.md",
+                "file": "What is -c in CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +284,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BLOB.md",
+                "file": "What is -c in CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -284,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BLOB.md"
+                "file": "What is -c in CLI.md"
               }
             }
           },
@@ -313,18 +336,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4409f6bc557419de",
+  "active": "8d008176f2fc5072",
   "lastOpenFiles": [
+    "CLI.md",
+    "What is -c in CLI.md",
+    "Want to connect from a container to a service on the host.md",
+    "BLOB.md",
     "attachments/Pasted image 20230712235742.png",
     "Database System Concepts Note.md",
-    "BLOB.md",
     "Airbyte Scale Workflow Orchestratrion Temporal.md",
     "Airbyte.md",
     "Objects in Kubernetes.md",
     "kubectl.md",
     "Labels and Selectors.md",
     "attachments/Pasted image 20230711120628.png",
-    "Want to connect from a container to a service on the host.md",
     "DOCKER - Explore networking features.md",
     "Vacuum Postgres.md",
     "Untitled.canvas",
@@ -343,7 +368,6 @@
     "Eval.md",
     "How do I always see the essentials of something?.md",
     "Webhook.md",
-    "What diff between release and tag.md",
     "attachments/Pasted image 20230703152858.png",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
@@ -353,7 +377,6 @@
     "attachments/Pasted image 20230626001859.png",
     "attachments/Pasted image 20230626001821.png",
     "attachments/Pasted image 20230626001805.png",
-    "attachments/Pasted image 20230626001537.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
