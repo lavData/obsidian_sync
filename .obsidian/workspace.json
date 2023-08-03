@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embedded database.md",
+                "file": "CGROUP.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embedded database.md",
+                "file": "CGROUP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embedded database.md",
+                "file": "CGROUP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embedded database.md"
+                "file": "CGROUP.md"
               }
             }
           },
@@ -194,8 +194,9 @@
   },
   "active": "def3a3aa37af0a23",
   "lastOpenFiles": [
-    "Why is DuckDB Getting Popular?.md",
     "Embedded database.md",
+    "CGROUP.md",
+    "Why is DuckDB Getting Popular?.md",
     "attachments/Pasted image 20230803145056.png",
     "DuckDB.md",
     "Differences btw Oracle JDK and Open JDK.md",
@@ -224,7 +225,6 @@
     "Labels and Selectors.md",
     "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
-    "MVCC.md",
     "attachments/Pasted image 20230704132612.png",
     "attachments/Pasted image 20230703152858.png",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
