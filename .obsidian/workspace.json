@@ -4,203 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "206c4ffcf05fbb2d",
+        "id": "1fcb7265389482d5",
         "type": "tabs",
         "children": [
           {
-            "id": "0f45b51300e7d0f1",
+            "id": "79f97aec45021462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to Take Smart Notes by SönkeAhrens Note.md",
+                "file": "Helm chart.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a2e8cd1578970782",
+            "id": "2e4581f2efa7f928",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Why is not everybody using a slip-box and working effortlessly towards success.md",
+                "file": "DuckDB.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cb09512e32756a13",
+            "id": "b06e944a49ff661a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fully qualified domain name (FQDN).md",
+                "file": "Why is DuckDB Getting Popular?.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "21bd0ca3f815f580",
+            "id": "def3a3aa37af0a23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DOCKER - Explore networking features.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c5ccb02ea3a5ba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vim personal note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a69df076d6f85e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Postgres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1a1b087761ba8f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vacuum Postgres.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25cac5d55c72286d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubectl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "142d02e378c98b3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubectl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fbaea25dce68dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Objects in Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00c326a2f76bccd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kubectl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "889cbc42df3ec31e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Airbyte.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a005abff087acc75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database System Concepts Note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4409f6bc557419de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Want to connect from a container to a service on the host.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1daab7a664646b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d008176f2fc5072",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is -c in CLI.md",
+                "file": "Embedded database.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -229,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cli",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 295.5
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -267,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What is -c in CLI.md",
+                "file": "Embedded database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "What is -c in CLI.md",
+                "file": "Embedded database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "What is -c in CLI.md"
+                "file": "Embedded database.md"
               }
             }
           },
@@ -336,38 +192,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8d008176f2fc5072",
+  "active": "def3a3aa37af0a23",
   "lastOpenFiles": [
+    "Why is DuckDB Getting Popular?.md",
+    "Embedded database.md",
+    "attachments/Pasted image 20230803145056.png",
+    "DuckDB.md",
+    "Differences btw Oracle JDK and Open JDK.md",
+    "Want to connect from a container to a service on the host.md",
+    "Helm Architecture.md",
+    "attachments/Pasted image 20230726124330.png",
+    "Helm chart.md",
+    "temp.md",
+    "How to Take Smart Notes by SönkeAhrens Note.md",
+    "Why is not everybody using a slip-box and working effortlessly towards success.md",
+    "Fully qualified domain name (FQDN).md",
+    "DOCKER - Explore networking features.md",
+    "Vim personal note.md",
+    "Postgres.md",
+    "Vacuum Postgres.md",
+    "kubectl.md",
+    "Objects in Kubernetes.md",
+    "Airbyte.md",
+    "Database System Concepts Note.md",
     "CLI.md",
     "What is -c in CLI.md",
-    "Want to connect from a container to a service on the host.md",
+    "Temporal.md",
     "BLOB.md",
     "attachments/Pasted image 20230712235742.png",
-    "Database System Concepts Note.md",
     "Airbyte Scale Workflow Orchestratrion Temporal.md",
-    "Airbyte.md",
-    "Objects in Kubernetes.md",
-    "kubectl.md",
     "Labels and Selectors.md",
     "attachments/Pasted image 20230711120628.png",
-    "DOCKER - Explore networking features.md",
-    "Vacuum Postgres.md",
     "Untitled.canvas",
     "MVCC.md",
-    "Postgres.md",
-    "Optimize query Postgres.md",
-    "Why is not everybody using a slip-box and working effortlessly towards success.md",
-    "Vim personal note.md",
-    "DNS for Services and Pods.md",
-    "git clone.md",
-    "VPC.md",
     "attachments/Pasted image 20230704132612.png",
-    "How to Take Smart Notes by SönkeAhrens Note.md",
-    "v.md",
-    "Differ btw Objective and Subjective.md",
-    "Eval.md",
-    "How do I always see the essentials of something?.md",
-    "Webhook.md",
     "attachments/Pasted image 20230703152858.png",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
@@ -375,8 +233,6 @@
     "attachments/Pasted image 20230626002012.png",
     "attachments/Pasted image 20230626001909.png",
     "attachments/Pasted image 20230626001859.png",
-    "attachments/Pasted image 20230626001821.png",
-    "attachments/Pasted image 20230626001805.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
