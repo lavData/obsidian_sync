@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Helm chart.md",
+                "file": "Java SE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d23029ede18333c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JVM.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ABC class.md",
+                "file": "Temporal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ABC class.md",
+                "file": "Temporal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ABC class.md",
+                "file": "Temporal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ABC class.md"
+                "file": "Temporal.md"
               }
             }
           },
@@ -179,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,17 +207,20 @@
   },
   "active": "def3a3aa37af0a23",
   "lastOpenFiles": [
-    "CGROUP.md",
+    "Differences btw Oracle JDK and Open JDK.md",
+    "JVM.md",
+    "Java SE.md",
+    "Helm chart.md",
+    "what is the -Xms and -Xmx parameters when starting JVM.md",
     "ABC class.md",
+    "CGROUP.md",
     "Embedded database.md",
     "Why is DuckDB Getting Popular?.md",
     "attachments/Pasted image 20230803145056.png",
     "DuckDB.md",
-    "Differences btw Oracle JDK and Open JDK.md",
     "Want to connect from a container to a service on the host.md",
     "Helm Architecture.md",
     "attachments/Pasted image 20230726124330.png",
-    "Helm chart.md",
     "temp.md",
     "How to Take Smart Notes by SönkeAhrens Note.md",
     "Why is not everybody using a slip-box and working effortlessly towards success.md",
@@ -219,10 +235,7 @@
     "Database System Concepts Note.md",
     "CLI.md",
     "What is -c in CLI.md",
-    "Temporal.md",
-    "BLOB.md",
     "attachments/Pasted image 20230712235742.png",
-    "Airbyte Scale Workflow Orchestratrion Temporal.md",
     "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
     "attachments/Pasted image 20230704132612.png",
