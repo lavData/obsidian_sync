@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Why is DuckDB Getting Popular?.md",
+                "file": "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b62e8e8049b4ee58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "@ in array.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -135,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temporal.md",
+                "file": "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temporal.md",
+                "file": "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temporal.md"
+                "file": "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md"
               }
             }
           },
@@ -205,8 +217,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "def3a3aa37af0a23",
+  "active": "b06e944a49ff661a",
   "lastOpenFiles": [
+    "CLI.md",
+    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
+    "@ in array.md",
+    "Why is DuckDB Getting Popular?.md",
+    "Temporal.md",
     "Differences btw Oracle JDK and Open JDK.md",
     "JVM.md",
     "Java SE.md",
@@ -215,7 +232,6 @@
     "ABC class.md",
     "CGROUP.md",
     "Embedded database.md",
-    "Why is DuckDB Getting Popular?.md",
     "attachments/Pasted image 20230803145056.png",
     "DuckDB.md",
     "Want to connect from a container to a service on the host.md",
@@ -231,10 +247,6 @@
     "Vacuum Postgres.md",
     "kubectl.md",
     "Objects in Kubernetes.md",
-    "Airbyte.md",
-    "Database System Concepts Note.md",
-    "CLI.md",
-    "What is -c in CLI.md",
     "attachments/Pasted image 20230712235742.png",
     "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
