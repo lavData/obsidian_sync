@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temporal.md",
+                "file": "Data Scaling.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temporal.md",
+                "file": "Data Scaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temporal.md",
+                "file": "Data Scaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temporal.md"
+                "file": "Data Scaling.md"
               }
             }
           },
@@ -138,12 +138,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,18 +158,27 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
+    "attachments/Pasted image 20230822212223.png",
+    "Insulin.md",
+    "Data Scaling.md",
+    "books/01-11-2020-041924The 5 AM Club - Robin Sharma.pdf",
+    "books/Unconfirmed 25989.crdownload",
+    "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
+    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
+    "Annotated.md",
+    "ABC class.md",
+    "CDC.md",
+    "Differ btw Objective and Subjective.md",
     "Temporal.md",
     "@ in array.md",
     "DuckDB.md",
     "JVM.md",
     "Java SE.md",
-    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "CLI.md",
     "Why is DuckDB Getting Popular?.md",
     "Differences btw Oracle JDK and Open JDK.md",
     "Helm chart.md",
     "what is the -Xms and -Xmx parameters when starting JVM.md",
-    "ABC class.md",
     "CGROUP.md",
     "Embedded database.md",
     "attachments/Pasted image 20230803145056.png",
@@ -180,12 +189,6 @@
     "How to Take Smart Notes by SönkeAhrens Note.md",
     "Why is not everybody using a slip-box and working effortlessly towards success.md",
     "Fully qualified domain name (FQDN).md",
-    "DOCKER - Explore networking features.md",
-    "Vim personal note.md",
-    "Postgres.md",
-    "Vacuum Postgres.md",
-    "kubectl.md",
-    "Objects in Kubernetes.md",
     "attachments/Pasted image 20230712235742.png",
     "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
@@ -201,9 +204,6 @@
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
     "icons",
-    "books/Final Exam Data Analysis Advanced.pdf",
-    "books",
-    "final exam.pdf",
-    "attachments"
+    "books/Final Exam Data Analysis Advanced.pdf"
   ]
 }
