@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Scaling.md",
+                "file": "To lay egg.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#english",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Scaling.md",
+                "file": "To lay egg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Scaling.md",
+                "file": "To lay egg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Scaling.md"
+                "file": "To lay egg.md"
               }
             }
           },
@@ -158,9 +158,11 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
+    "Differ btw Objective and Subjective.md",
+    "To lay egg.md",
+    "Data Scaling.md",
     "attachments/Pasted image 20230822212223.png",
     "Insulin.md",
-    "Data Scaling.md",
     "books/01-11-2020-041924The 5 AM Club - Robin Sharma.pdf",
     "books/Unconfirmed 25989.crdownload",
     "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
@@ -168,7 +170,6 @@
     "Annotated.md",
     "ABC class.md",
     "CDC.md",
-    "Differ btw Objective and Subjective.md",
     "Temporal.md",
     "@ in array.md",
     "DuckDB.md",
@@ -199,7 +200,6 @@
     "attachments/Pasted image 20230626002145.png",
     "attachments/Pasted image 20230626002012.png",
     "attachments/Pasted image 20230626001909.png",
-    "attachments/Pasted image 20230626001859.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
