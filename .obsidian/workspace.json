@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "No proper subset.md",
+                "file": "Cluster Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "No proper subset.md",
+                "file": "Cluster Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "No proper subset.md",
+                "file": "Cluster Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "No proper subset.md"
+                "file": "Cluster Index.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
-    "To lay egg.md",
+    "Punch card.md",
+    "Cluster Index.md",
     "No proper subset.md",
+    "To lay egg.md",
     "Differ btw Objective and Subjective.md",
     "Data Scaling.md",
     "attachments/Pasted image 20230822212223.png",
@@ -188,8 +190,6 @@
     "Helm Architecture.md",
     "attachments/Pasted image 20230726124330.png",
     "temp.md",
-    "How to Take Smart Notes by SönkeAhrens Note.md",
-    "Why is not everybody using a slip-box and working effortlessly towards success.md",
     "attachments/Pasted image 20230712235742.png",
     "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
