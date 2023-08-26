@@ -25,3 +25,8 @@ When an index scan is used, a temporary copy of the table is created that contai
 [CLUSTER - Postgres](https://www.postgresql.org/docs/current/sql-cluster.html)
 🆗
 However, if you tend to access some data more than others, and there is an index that groups them together, you will benefit from using CLUSTER.
+
+🚫
+Clustering a partitioned table clusters each of its partitions using the partition of the specified partitioned index. When clustering a partitioned table, the index may not be omitted.
+
+	

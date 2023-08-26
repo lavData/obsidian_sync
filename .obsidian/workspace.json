@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cluster Index.md",
+                "file": "Cheat male.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cluster Index.md",
+                "file": "Cheat male.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cluster Index.md",
+                "file": "Cheat male.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cluster Index.md"
+                "file": "Cheat male.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
-    "Punch card.md",
+    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
+    "Cheat male.md",
     "Cluster Index.md",
+    "Punch card.md",
     "No proper subset.md",
     "To lay egg.md",
     "Differ btw Objective and Subjective.md",
@@ -169,7 +171,6 @@
     "books/01-11-2020-041924The 5 AM Club - Robin Sharma.pdf",
     "books/Unconfirmed 25989.crdownload",
     "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
-    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "Annotated.md",
     "ABC class.md",
     "CDC.md",
@@ -189,7 +190,6 @@
     "Want to connect from a container to a service on the host.md",
     "Helm Architecture.md",
     "attachments/Pasted image 20230726124330.png",
-    "temp.md",
     "attachments/Pasted image 20230712235742.png",
     "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
