@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Signature.md",
+                "file": "Optimistic Lock & Pessimistic Lock.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Signature.md",
+                "file": "Optimistic Lock & Pessimistic Lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Digital Signature.md",
+                "file": "Optimistic Lock & Pessimistic Lock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Digital Signature.md"
+                "file": "Optimistic Lock & Pessimistic Lock.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
+    "Digital Signature.md",
+    "Optimistic Lock & Pessimistic Lock.md",
     "attachments/Pasted image 20230829214426.png",
     "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
-    "Digital Signature.md",
     "Pseudo.md",
     "Logically implied.md",
     "Cheat male.md",
@@ -199,7 +200,6 @@
     "books/Unconfirmed 826165.crdownload",
     "attachments/Pasted image 20230626002145.png",
     "attachments/Pasted image 20230626002012.png",
-    "attachments/Pasted image 20230626001909.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
