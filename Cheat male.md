@@ -6,5 +6,5 @@
 Cheat meal cho phép người ta thưởng thức những món ăn mà họ thường không được ăn trong quá trình tuân thủ chế độ ăn uống. Nó có thể là một cách để hỗ trợ tâm lý, giảm căng thẳng và duy trì sự cân bằng trong quá trình giảm cân hoặc duy trì cân nặng.
 
 Tuy nhiên, việc sử dụng cheat meal cần được thực hiện một cách cân nhắc và không được lạm dụng, vì nó có thể ảnh hưởng đến quá trình đạt được mục tiêu dinh dưỡng và sức khỏe tổng thể.
-
+https://www.youtube.com/shorts/UJtA_ET6B-whttps://www.youtube.com/shorts/UJtA_ET6B-w
 [Link use this](https://www.youtube.com/shorts/n9lG98YlELA)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat male.md",
+                "file": "Logically implied.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat male.md",
+                "file": "Logically implied.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat male.md",
+                "file": "Logically implied.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat male.md"
+                "file": "Logically implied.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
-    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "Cheat male.md",
+    "Logically implied.md",
+    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "Cluster Index.md",
     "Punch card.md",
     "No proper subset.md",
@@ -188,7 +189,6 @@
     "Embedded database.md",
     "attachments/Pasted image 20230803145056.png",
     "Want to connect from a container to a service on the host.md",
-    "Helm Architecture.md",
     "attachments/Pasted image 20230726124330.png",
     "attachments/Pasted image 20230712235742.png",
     "attachments/Pasted image 20230711120628.png",
