@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimistic Lock & Pessimistic Lock.md",
+                "file": "ORDER BY.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimistic Lock & Pessimistic Lock.md",
+                "file": "ORDER BY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimistic Lock & Pessimistic Lock.md",
+                "file": "ORDER BY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimistic Lock & Pessimistic Lock.md"
+                "file": "ORDER BY.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
-    "Digital Signature.md",
     "Optimistic Lock & Pessimistic Lock.md",
+    "ORDER BY.md",
+    "Digital Signature.md",
     "attachments/Pasted image 20230829214426.png",
     "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "Pseudo.md",
@@ -188,7 +189,6 @@
     "Why is DuckDB Getting Popular?.md",
     "Differences btw Oracle JDK and Open JDK.md",
     "Helm chart.md",
-    "what is the -Xms and -Xmx parameters when starting JVM.md",
     "attachments/Pasted image 20230803145056.png",
     "attachments/Pasted image 20230726124330.png",
     "attachments/Pasted image 20230712235742.png",
