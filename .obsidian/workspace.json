@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ORDER BY.md",
+                "file": "Get down to brass tacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#english",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ORDER BY.md",
+                "file": "Get down to brass tacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ORDER BY.md",
+                "file": "Get down to brass tacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ORDER BY.md"
+                "file": "Get down to brass tacks.md"
               }
             }
           },
@@ -137,13 +138,33 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "347a7168eec3d042",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "313ed93f5391e2eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Get down to brass tacks.md"
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,10 +179,15 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
-    "Optimistic Lock & Pessimistic Lock.md",
-    "ORDER BY.md",
-    "Digital Signature.md",
+    "Over Season.md",
+    "Get down to brass tacks.md",
+    "Stretch vs Outstretch.md",
+    "Network Model.md",
+    "GPG.md",
     "attachments/Pasted image 20230829214426.png",
+    "ORDER BY.md",
+    "Optimistic Lock & Pessimistic Lock.md",
+    "Digital Signature.md",
     "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "Pseudo.md",
     "Logically implied.md",
@@ -184,11 +210,6 @@
     "@ in array.md",
     "DuckDB.md",
     "JVM.md",
-    "Java SE.md",
-    "CLI.md",
-    "Why is DuckDB Getting Popular?.md",
-    "Differences btw Oracle JDK and Open JDK.md",
-    "Helm chart.md",
     "attachments/Pasted image 20230803145056.png",
     "attachments/Pasted image 20230726124330.png",
     "attachments/Pasted image 20230712235742.png",
