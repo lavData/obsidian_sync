@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Get down to brass tacks.md",
+                "file": "Ret Hat.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#english",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 295.5
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Get down to brass tacks.md",
+                "file": "Ret Hat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Get down to brass tacks.md",
+                "file": "Ret Hat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Get down to brass tacks.md"
+                "file": "Ret Hat.md"
               }
             }
           },
@@ -155,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Get down to brass tacks.md"
+                "file": "Ret Hat.md"
               }
             }
           }
@@ -179,8 +178,23 @@
   },
   "active": "308145547e097932",
   "lastOpenFiles": [
+    "attachments/Emoji - ret hat.png",
+    "Ret Hat.md",
+    "attachments/Emoji - chicken.png",
+    "attachments/Pasted image 20230925205246.png",
+    "attachments/Pasted image 20230925205232.png",
+    "attachments/Pasted image 20230925205218.png",
+    "attachments/Pasted image 20230925205213.png",
+    "LightGBM.md",
+    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
     "Over Season.md",
+    "Untitled.md",
+    "To lay egg.md",
+    "Pseudo.md",
+    "Logically implied.md",
     "Get down to brass tacks.md",
+    "Differ btw Objective and Subjective.md",
+    "Cheat male.md",
     "Stretch vs Outstretch.md",
     "Network Model.md",
     "GPG.md",
@@ -188,15 +202,9 @@
     "ORDER BY.md",
     "Optimistic Lock & Pessimistic Lock.md",
     "Digital Signature.md",
-    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
-    "Pseudo.md",
-    "Logically implied.md",
-    "Cheat male.md",
     "Cluster Index.md",
     "Punch card.md",
     "No proper subset.md",
-    "To lay egg.md",
-    "Differ btw Objective and Subjective.md",
     "Data Scaling.md",
     "attachments/Pasted image 20230822212223.png",
     "Insulin.md",
@@ -206,21 +214,11 @@
     "Annotated.md",
     "ABC class.md",
     "CDC.md",
-    "Temporal.md",
-    "@ in array.md",
-    "DuckDB.md",
-    "JVM.md",
     "attachments/Pasted image 20230803145056.png",
     "attachments/Pasted image 20230726124330.png",
-    "attachments/Pasted image 20230712235742.png",
-    "attachments/Pasted image 20230711120628.png",
     "Untitled.canvas",
-    "attachments/Pasted image 20230704132612.png",
-    "attachments/Pasted image 20230703152858.png",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
-    "attachments/Pasted image 20230626002145.png",
-    "attachments/Pasted image 20230626002012.png",
     "books/Database-System-Concepts-7th-Edition.pdf",
     "templates",
     "books/Learn Vimscript the Hard Way.pdf",
