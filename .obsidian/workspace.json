@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ret Hat.md",
+                "file": "80-20 Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ret Hat.md",
+                "file": "80-20 Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ret Hat.md",
+                "file": "80-20 Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ret Hat.md"
+                "file": "80-20 Principle.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Ret Hat.md"
+                "file": "80-20 Principle.md"
               }
             }
           }
@@ -176,10 +176,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "308145547e097932",
+  "active": "d93854e75688268b",
   "lastOpenFiles": [
-    "attachments/Emoji - ret hat.png",
+    "@ in array.md",
+    "80-20 Principle.md",
+    "books/Covey - The 7 habits of highly effective people.pdf",
+    "books/Deep Work_ Rules for focused success in a distracted world ( PDFDrive.com ).pdf",
+    "books/the-80-20-principle-to-achieve-more-with-less-effort1.pdf",
     "Ret Hat.md",
+    "attachments/Emoji - ret hat.png",
     "attachments/Emoji - chicken.png",
     "attachments/Pasted image 20230925205246.png",
     "attachments/Pasted image 20230925205232.png",
@@ -213,16 +218,12 @@
     "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
     "Annotated.md",
     "ABC class.md",
-    "CDC.md",
     "attachments/Pasted image 20230803145056.png",
     "attachments/Pasted image 20230726124330.png",
     "Untitled.canvas",
     "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
     "books/Unconfirmed 826165.crdownload",
     "books/Database-System-Concepts-7th-Edition.pdf",
-    "templates",
-    "books/Learn Vimscript the Hard Way.pdf",
-    "icons",
-    "books/Final Exam Data Analysis Advanced.pdf"
+    "templates"
   ]
 }

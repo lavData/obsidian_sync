@@ -9,5 +9,3 @@
 
 > Red Hat was one of the first companies to realize that free software could be sold as a product.
 
-
-
