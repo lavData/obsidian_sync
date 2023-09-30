@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3f3381dea46d54ab",
+        "id": "24ea6e8f95dbf121",
         "type": "tabs",
         "children": [
           {
-            "id": "308145547e097932",
+            "id": "1c33339401ea6fb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80-20 Principle.md",
+                "file": "Flat broke.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#english",
+                "query": "tag:#note",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80-20 Principle.md",
+                "file": "Flat broke.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "80-20 Principle.md",
+                "file": "Flat broke.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,35 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "80-20 Principle.md"
-              }
-            }
-          },
-          {
-            "id": "fcfcabc002473f68",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "347a7168eec3d042",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "313ed93f5391e2eb",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "80-20 Principle.md"
+                "file": "Flat broke.md"
               }
             }
           }
@@ -172,58 +144,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "d93854e75688268b",
+  "active": "1c33339401ea6fb5",
   "lastOpenFiles": [
+    "templates/toggle.md",
     "@ in array.md",
-    "80-20 Principle.md",
-    "books/Covey - The 7 habits of highly effective people.pdf",
-    "books/Deep Work_ Rules for focused success in a distracted world ( PDFDrive.com ).pdf",
+    "icons/Anki-icon.svg",
+    "what is the -Xms and -Xmx parameters when starting JVM.md",
+    "minikube.md",
+    "kubectl.md",
+    "git clone.md",
     "books/the-80-20-principle-to-achieve-more-with-less-effort1.pdf",
-    "Ret Hat.md",
-    "attachments/Emoji - ret hat.png",
-    "attachments/Emoji - chicken.png",
+    "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
+    "books/Deep Work_ Rules for focused success in a distracted world ( PDFDrive.com ).pdf",
+    "books/Covey - The 7 habits of highly effective people.pdf",
+    "books/01-11-2020-041924The 5 AM Club - Robin Sharma.pdf",
     "attachments/Pasted image 20230925205246.png",
     "attachments/Pasted image 20230925205232.png",
     "attachments/Pasted image 20230925205218.png",
     "attachments/Pasted image 20230925205213.png",
-    "LightGBM.md",
-    "IBM Researchers Introduce an Analog AI Chip for Deep Learning Inference - Showcasing Critical Building Blocks of a Scalable Mixed-Signal Architecture.md",
-    "Over Season.md",
-    "Untitled.md",
-    "To lay egg.md",
-    "Pseudo.md",
-    "Logically implied.md",
-    "Get down to brass tacks.md",
-    "Differ btw Objective and Subjective.md",
-    "Cheat male.md",
-    "Stretch vs Outstretch.md",
-    "Network Model.md",
-    "GPG.md",
     "attachments/Pasted image 20230829214426.png",
-    "ORDER BY.md",
-    "Optimistic Lock & Pessimistic Lock.md",
-    "Digital Signature.md",
-    "Cluster Index.md",
-    "Punch card.md",
-    "No proper subset.md",
-    "Data Scaling.md",
     "attachments/Pasted image 20230822212223.png",
-    "Insulin.md",
-    "books/01-11-2020-041924The 5 AM Club - Robin Sharma.pdf",
-    "books/Unconfirmed 25989.crdownload",
-    "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
-    "Annotated.md",
-    "ABC class.md",
     "attachments/Pasted image 20230803145056.png",
     "attachments/Pasted image 20230726124330.png",
+    "attachments/Pasted image 20230712235742.png",
+    "Why is not everybody using a slip-box and working effortlessly towards success.md",
+    "Why is DuckDB Getting Popular?.md",
+    "What is -c in CLI.md",
+    "What diff between release and tag.md",
+    "Want to connect from a container to a service on the host.md",
+    "Vacuum Postgres.md",
+    "VPC.md",
+    "Untitled.md",
     "Untitled.canvas",
-    "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf",
-    "books/Unconfirmed 826165.crdownload",
+    "To lay egg.md",
+    "Temporal.md",
+    "Stretch vs Outstretch.md",
+    "Ret Hat.md",
+    "Punch card.md",
+    "Pseudo.md",
+    "Over Season.md",
+    "Optimistic Lock & Pessimistic Lock.md",
+    "Objects in Kubernetes.md",
+    "ORDER BY.md",
+    "No proper subset.md",
+    "Network Model.md",
+    "final exam.pdf",
+    "books/Learn Vimscript the Hard Way.pdf",
+    "books/Final Exam Data Analysis Advanced.pdf",
     "books/Database-System-Concepts-7th-Edition.pdf",
-    "templates"
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf"
   ]
 }
