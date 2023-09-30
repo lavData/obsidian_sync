@@ -11,11 +11,9 @@
             "id": "1c33339401ea6fb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Flat broke.md",
-                "mode": "source",
-                "source": false
+                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf"
               }
             }
           }
@@ -69,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flat broke.md",
+                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flat broke.md",
+                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flat broke.md"
+                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf"
               }
             }
           }
@@ -147,8 +144,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c33339401ea6fb5",
+  "active": "d93854e75688268b",
   "lastOpenFiles": [
+    "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
+    "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
+    "Bigdata/[Metrics] Evaluating_Collaborative_Filtering_Recommender_Algorithms_A_Survey.pdf",
+    "Kubernetes misconfigurations.md",
+    "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
+    "Bigdata/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
+    "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
+    "Bigdata/drive-download-20230930T061155Z-001/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
+    "Bigdata/drive-download-20230930T061155Z-001/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
+    "Bigdata/drive-download-20230930T061155Z-001/[Paper] 2017_Neural Collaborative Filtering.pdf",
+    "Bigdata/drive-download-20230930T061155Z-001/[Metrics] Evaluating_Collaborative_Filtering_Recommender_Algorithms_A_Survey.pdf",
+    "Objects in Kubernetes.md",
+    "Flat broke.md",
     "templates/toggle.md",
     "@ in array.md",
     "icons/Anki-icon.svg",
@@ -156,11 +166,6 @@
     "minikube.md",
     "kubectl.md",
     "git clone.md",
-    "books/the-80-20-principle-to-achieve-more-with-less-effort1.pdf",
-    "books/The 5 AM Club Own Your Morning. Elevate Your Life. by Robin Sharma (z-lib.org).epub",
-    "books/Deep Work_ Rules for focused success in a distracted world ( PDFDrive.com ).pdf",
-    "books/Covey - The 7 habits of highly effective people.pdf",
-    "books/01-11-2020-041924The 5 AM Club - Robin Sharma.pdf",
     "attachments/Pasted image 20230925205246.png",
     "attachments/Pasted image 20230925205232.png",
     "attachments/Pasted image 20230925205218.png",
@@ -187,16 +192,7 @@
     "Pseudo.md",
     "Over Season.md",
     "Optimistic Lock & Pessimistic Lock.md",
-    "Objects in Kubernetes.md",
-    "ORDER BY.md",
-    "No proper subset.md",
-    "Network Model.md",
-    "final exam.pdf",
-    "books/Learn Vimscript the Hard Way.pdf",
-    "books/Final Exam Data Analysis Advanced.pdf",
-    "books/Database-System-Concepts-7th-Edition.pdf",
     "Untitled 1.canvas",
-    "Untitled 2.canvas",
-    "books/How-to-Take-Smart-Notes-by-Sönke-Ahrens-40zol.pdf"
+    "Untitled 2.canvas"
   ]
 }
