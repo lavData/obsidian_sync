@@ -18,6 +18,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "a30f934a7a8149bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7f02c8280f8828a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -146,13 +162,16 @@
   },
   "active": "d93854e75688268b",
   "lastOpenFiles": [
-    "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
-    "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
     "Bigdata/[Metrics] Evaluating_Collaborative_Filtering_Recommender_Algorithms_A_Survey.pdf",
-    "Kubernetes misconfigurations.md",
+    "attachments/Emoji - ret hat.png",
+    "attachments/Emoji - chicken.png",
+    "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
+    "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
-    "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
+    "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
+    "BLOB.md",
+    "Kubernetes misconfigurations.md",
     "Bigdata/drive-download-20230930T061155Z-001/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/drive-download-20230930T061155Z-001/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
     "Bigdata/drive-download-20230930T061155Z-001/[Paper] 2017_Neural Collaborative Filtering.pdf",
@@ -173,8 +192,6 @@
     "attachments/Pasted image 20230829214426.png",
     "attachments/Pasted image 20230822212223.png",
     "attachments/Pasted image 20230803145056.png",
-    "attachments/Pasted image 20230726124330.png",
-    "attachments/Pasted image 20230712235742.png",
     "Why is not everybody using a slip-box and working effortlessly towards success.md",
     "Why is DuckDB Getting Popular?.md",
     "What is -c in CLI.md",
@@ -191,7 +208,6 @@
     "Punch card.md",
     "Pseudo.md",
     "Over Season.md",
-    "Optimistic Lock & Pessimistic Lock.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
