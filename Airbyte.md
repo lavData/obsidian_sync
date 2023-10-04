@@ -6,6 +6,16 @@
 
 ---
 
-Airbyte uses a independent component is [[Temporal]]. Temporal use for orchestrate workflow
+Airbyte uses a independent component is [[Temporal]]. Temporal be used like orchestrate workflow
 
 [[Airbyte Scale Workflow Orchestratrion Temporal]]
+
+
+----
+
+[[Namespace in Airbyte]]
+
+
+---
+
+[[Airbyte Protocol]]

@@ -4,36 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "24ea6e8f95dbf121",
+        "id": "ebbf7d1b00ccad78",
         "type": "tabs",
         "children": [
           {
-            "id": "1c33339401ea6fb5",
+            "id": "1701dc4582e45264",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf"
+                "file": "Airbyte.md",
+                "mode": "source",
+                "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a30f934a7a8149bf",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "b7f02c8280f8828a",
+            "id": "f60b2d7f62b61ff2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf"
+                "file": "Airbyte Protocol.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#note",
+                "query": "post",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
+                "file": "Airbyte Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
+                "file": "Airbyte Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf"
+                "file": "Airbyte Protocol.md"
               }
             }
           }
@@ -160,12 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d93854e75688268b",
+  "active": "f60b2d7f62b61ff2",
   "lastOpenFiles": [
+    "Airbyte.md",
+    "Airbyte Protocol.md",
+    "Namespace in Airbyte.md",
+    "attachments/Pasted image 20231004140259.png",
+    "Cluster Index.md",
+    "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
     "Bigdata/[Metrics] Evaluating_Collaborative_Filtering_Recommender_Algorithms_A_Survey.pdf",
     "attachments/Emoji - ret hat.png",
     "attachments/Emoji - chicken.png",
-    "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
     "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
@@ -191,7 +196,6 @@
     "attachments/Pasted image 20230925205213.png",
     "attachments/Pasted image 20230829214426.png",
     "attachments/Pasted image 20230822212223.png",
-    "attachments/Pasted image 20230803145056.png",
     "Why is not everybody using a slip-box and working effortlessly towards success.md",
     "Why is DuckDB Getting Popular?.md",
     "What is -c in CLI.md",
@@ -205,9 +209,6 @@
     "Temporal.md",
     "Stretch vs Outstretch.md",
     "Ret Hat.md",
-    "Punch card.md",
-    "Pseudo.md",
-    "Over Season.md",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
   ]
