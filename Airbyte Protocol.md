@@ -21,4 +21,25 @@ Each method in the protocol has 3 parts:
 |---|---|
 |Field exists in data store but not in catalog|When the source runs, it never looks for the field in the store. It should not emit that field. If it does, it should be ignored downstream. The existence of an unknown field should not cause a failure.|
 
+---
+🔄
+[[Incremental syncs]]
+Concept: syncs that only replicate data that is new since the previous sync.
 
+----
+# V1
+State for an actor is emitted as a complete black box.
+
+---
+# V2
+Stream: isolate state for each stream with another
+Global: want to share infor of all state in one object
+Legacy: black box
+
+> Stream-Level Replication Isolation means that a Source could be run in ***parallel*** by splitting up its streams across running instances.
+❓How to parallel?
+
+---
+
+# Messages
+To forwards compatibility all messages should allow for unknown properties → `additionalProperties: true`
