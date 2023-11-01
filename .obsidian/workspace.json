@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Threading in Python.md",
+                "file": "Connection pool.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Threading in Python.md",
+                "file": "Connection pool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Threading in Python.md",
+                "file": "Connection pool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Threading in Python.md"
+                "file": "Connection pool.md"
               }
             }
           },
@@ -158,10 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcc973491c28b876",
+  "active": "3eef02f41eea7101",
   "lastOpenFiles": [
-    "Weight Decay.md",
+    "Loss Functions.md",
+    "Connection pool.md",
     "Threading in Python.md",
+    "Weight Decay.md",
     "Airbyte Protocol.md",
     "Black box and white box.md",
     "How to write good prompts - using spaced repetition to create understanding.md",
@@ -204,8 +206,6 @@
     "What is -c in CLI.md",
     "What diff between release and tag.md",
     "Want to connect from a container to a service on the host.md",
-    "Vacuum Postgres.md",
-    "VPC.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
