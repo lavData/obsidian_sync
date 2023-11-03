@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Connection pool.md",
+                "file": "Re-rise Exception.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Connection pool.md",
+                "file": "Re-rise Exception.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Connection pool.md",
+                "file": "Re-rise Exception.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Connection pool.md"
+                "file": "Re-rise Exception.md"
               }
             }
           },
@@ -160,8 +160,9 @@
   },
   "active": "3eef02f41eea7101",
   "lastOpenFiles": [
-    "Loss Functions.md",
     "Connection pool.md",
+    "Re-rise Exception.md",
+    "Loss Functions.md",
     "Threading in Python.md",
     "Weight Decay.md",
     "Airbyte Protocol.md",
@@ -205,7 +206,6 @@
     "Why is DuckDB Getting Popular?.md",
     "What is -c in CLI.md",
     "What diff between release and tag.md",
-    "Want to connect from a container to a service on the host.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
