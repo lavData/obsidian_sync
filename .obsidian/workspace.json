@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Re-rise Exception.md",
+                "file": "Stack and Heap.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Re-rise Exception.md",
+                "file": "Stack and Heap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Re-rise Exception.md",
+                "file": "Stack and Heap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Re-rise Exception.md"
+                "file": "Stack and Heap.md"
               }
             }
           },
@@ -160,8 +160,21 @@
   },
   "active": "3eef02f41eea7101",
   "lastOpenFiles": [
-    "Connection pool.md",
+    "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis/BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-OtherTopics.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
+    "Bigdata/Topic 2 Sentiment Analysis",
+    "Git Commit Message.md",
+    "Stack and Heap.md",
+    "Temporal.md",
+    "Git resolve merge conflict.md",
+    "git clone.md",
     "Re-rise Exception.md",
+    "Connection pool.md",
     "Loss Functions.md",
     "Threading in Python.md",
     "Weight Decay.md",
@@ -172,13 +185,6 @@
     "Bigdata/Recommender Systems.pdf",
     "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
     "Bigdata/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
-    "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
-    "Bigdata/[Metrics] Evaluating_Collaborative_Filtering_Recommender_Algorithms_A_Survey.pdf",
-    "Bigdata/2023-CSC14114-RecommenderSystems-CollaborativeFiltering.pdf",
-    "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
-    "books/How to Read A Book.pdf",
-    "books/HowtoReadABook.pdf",
-    "books/Unconfirmed 613029.crdownload",
     "Airbyte.md",
     "Punch card.md",
     "Namespace in Airbyte.md",
@@ -194,18 +200,12 @@
     "icons/Anki-icon.svg",
     "what is the -Xms and -Xmx parameters when starting JVM.md",
     "minikube.md",
-    "kubectl.md",
-    "git clone.md",
     "attachments/Pasted image 20230925205246.png",
     "attachments/Pasted image 20230925205232.png",
     "attachments/Pasted image 20230925205218.png",
     "attachments/Pasted image 20230925205213.png",
     "attachments/Pasted image 20230829214426.png",
     "attachments/Pasted image 20230822212223.png",
-    "Why is not everybody using a slip-box and working effortlessly towards success.md",
-    "Why is DuckDB Getting Popular?.md",
-    "What is -c in CLI.md",
-    "What diff between release and tag.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
