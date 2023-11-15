@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack and Heap.md",
+                "file": "Git Commit Message.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stack and Heap.md",
+                "file": "Git Commit Message.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stack and Heap.md",
+                "file": "Git Commit Message.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stack and Heap.md"
+                "file": "Git Commit Message.md"
               }
             }
           },
@@ -155,21 +154,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "3eef02f41eea7101",
   "lastOpenFiles": [
+    "Stack and Heap Memory.md",
+    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-OtherTopics.pdf",
-    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis",
     "Git Commit Message.md",
-    "Stack and Heap.md",
     "Temporal.md",
     "Git resolve merge conflict.md",
     "git clone.md",
@@ -184,7 +184,6 @@
     "@ in array.md",
     "Bigdata/Recommender Systems.pdf",
     "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
-    "Bigdata/[Paper] 2018_Graph convolutional neural networks for web-scale recommender systems.pdf",
     "Airbyte.md",
     "Punch card.md",
     "Namespace in Airbyte.md",
