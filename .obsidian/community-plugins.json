@@ -4,5 +4,8 @@
   "highlightr-plugin",
   "obsidian-icons-plugin",
   "obsidian-minimal-settings",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-to-anki-plugin",
+  "copilot",
+  "obsidian-excalidraw-plugin"
 ]

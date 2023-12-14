@@ -10,16 +10,133 @@
           {
             "id": "3eef02f41eea7101",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Bigdata/Recommender Systems.pdf"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c9bee5fc94c772de",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git Commit Message.md",
+                "file": "Temporal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6e148fe93439731",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Anki Basic+.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4d4c07bf9e6d14d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Anki Basic+.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5542697321d483ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toeic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7735194deaec1795",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53b958aea74e5bf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bdef0aacb5fba87",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Simple model.md"
+              }
+            }
+          },
+          {
+            "id": "e0f148fd5a220c1a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Simple model.md"
+              }
+            }
+          },
+          {
+            "id": "69797adc680dc8e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28964926f4dc58bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is the CAP theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -69,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -86,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git Commit Message.md",
+                "file": "What is the CAP theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git Commit Message.md",
+                "file": "What is the CAP theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +242,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git Commit Message.md"
+                "file": "What is the CAP theorem.md"
               }
             }
           },
@@ -139,12 +255,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "4548351ee6aa23a4",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 580.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -155,50 +280,54 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "copilot:Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3eef02f41eea7101",
+  "active": "28964926f4dc58bf",
   "lastOpenFiles": [
-    "Stack and Heap Memory.md",
+    "Temporal.md",
+    "What is the CAP theorem.md",
+    "Toeic.md",
+    "Trắc nghiệm TOEIC.md",
+    "Untitled.md",
+    "Excalidraw/Simple model.md",
+    "Excalidraw/Airbyte.md",
+    "templates/Anki Basic+.md",
+    "Bigdata/Recommender Systems.pdf",
+    "Excalidraw/Staging.md",
+    "DuckDB.md",
+    "Data Scaling.md",
+    "CLI.md",
+    "Excalidraw/Airbyte]![[Drawing 2023-12-11 14.24.29.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-11 14.24.29.excalidraw.md",
+    "Excalidraw/Model data.md",
+    "Excalidraw/Data source.md",
+    "Golang Finctional Options Pattern.md",
+    "Excalidraw",
+    "templates/Anki Inline.md",
+    "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
+    "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
+    "Templates/Anki Inline.md",
+    "templates/toggle.md",
+    "GOPATH vs go.mod.md",
+    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
+    "Git resolve merge conflict.md",
+    "Goroutine.md",
+    "How to write good prompts - using spaced repetition to create understanding.md",
+    "The Clean Code Blog Quote.md",
+    "Git Commit Message.md",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/BERT Pre-training of Deep Bidirectional Transformers for Language Understanding.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
-    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
-    "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-OtherTopics.pdf",
-    "Bigdata/Topic 2 Sentiment Analysis",
-    "Git Commit Message.md",
-    "Temporal.md",
-    "Git resolve merge conflict.md",
-    "git clone.md",
-    "Re-rise Exception.md",
-    "Connection pool.md",
-    "Loss Functions.md",
-    "Threading in Python.md",
-    "Weight Decay.md",
-    "Airbyte Protocol.md",
-    "Black box and white box.md",
-    "How to write good prompts - using spaced repetition to create understanding.md",
-    "@ in array.md",
-    "Bigdata/Recommender Systems.pdf",
-    "Bigdata/2023-CSC14114-RecommenderSystems-BasicConcepts.pdf",
-    "Airbyte.md",
-    "Punch card.md",
-    "Namespace in Airbyte.md",
     "attachments/Pasted image 20231004140259.png",
-    "Cluster Index.md",
     "attachments/Emoji - ret hat.png",
     "attachments/Emoji - chicken.png",
-    "BLOB.md",
-    "Kubernetes misconfigurations.md",
-    "Objects in Kubernetes.md",
-    "Flat broke.md",
-    "templates/toggle.md",
     "icons/Anki-icon.svg",
-    "what is the -Xms and -Xmx parameters when starting JVM.md",
-    "minikube.md",
     "attachments/Pasted image 20230925205246.png",
     "attachments/Pasted image 20230925205232.png",
     "attachments/Pasted image 20230925205218.png",
