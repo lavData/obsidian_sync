@@ -129,14 +129,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "What is the CAP theorem.md",
+                "file": "What is the Python Global Interpreter Lock (GIL).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ffb91754fa7bf0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mutex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -202,7 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What is the CAP theorem.md",
+                "file": "Mutex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "What is the CAP theorem.md",
+                "file": "Mutex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "What is the CAP theorem.md"
+                "file": "Mutex.md"
               }
             }
           },
@@ -269,8 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5,
-    "collapsed": true
+    "width": 580.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,10 +297,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28964926f4dc58bf",
+  "active": "1ffb91754fa7bf0f",
   "lastOpenFiles": [
-    "Temporal.md",
+    "What is the Python Global Interpreter Lock (GIL).md",
+    "Mutex.md",
     "What is the CAP theorem.md",
+    "Temporal.md",
     "Toeic.md",
     "Trắc nghiệm TOEIC.md",
     "Untitled.md",
@@ -317,8 +330,6 @@
     "Git resolve merge conflict.md",
     "Goroutine.md",
     "How to write good prompts - using spaced repetition to create understanding.md",
-    "The Clean Code Blog Quote.md",
-    "Git Commit Message.md",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
