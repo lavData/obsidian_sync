@@ -2197,7 +2197,7 @@
             "containerId": null,
             "originalText": "Azure Database for MariaDB",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665683916118,
@@ -3643,7 +3643,7 @@
             "containerId": null,
             "originalText": "Azure Database for PostgreSQL",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           },
           {
             "type": "line",
@@ -4608,7 +4608,7 @@
             "containerId": null,
             "originalText": "Azure Data Explorer",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665682639787,
@@ -5211,7 +5211,7 @@
             "containerId": null,
             "originalText": "Azure Data Factory",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665679350144,
@@ -17263,7 +17263,7 @@
             "containerId": null,
             "originalText": "Azure CosmosDB",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665677951048,
@@ -21489,7 +21489,7 @@
             "containerId": null,
             "originalText": "Azure Cache for Redis",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           }
         ],
         "created": 1665671914787,
@@ -22935,7 +22935,7 @@
             "containerId": null,
             "originalText": "Azure Database for MySQL",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "text",
@@ -22974,7 +22974,7 @@
             "containerId": null,
             "originalText": "My",
             "lineHeight": 1.25,
-            "baseline": 32
+            "baseline": 31
           }
         ],
         "created": 1665671912422,
@@ -24420,7 +24420,7 @@
             "containerId": null,
             "originalText": "Azure SQL Database",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           },
           {
             "type": "text",
@@ -24459,7 +24459,7 @@
             "containerId": null,
             "originalText": "SQL",
             "lineHeight": 1.25,
-            "baseline": 32
+            "baseline": 31
           }
         ],
         "created": 1665671910061,
@@ -25836,7 +25836,7 @@
             "containerId": null,
             "originalText": "SQL",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "text",
@@ -25875,7 +25875,7 @@
             "containerId": null,
             "originalText": "Azure SQL Managed Instance",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "created": 1665445665394,
@@ -29315,7 +29315,7 @@
             "containerId": null,
             "originalText": "Azure Policy",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "created": 1665435078221,
@@ -31071,7 +31071,7 @@
             "containerId": null,
             "originalText": "Azure Cognitive Services",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "pV7j4BKbYpDTT8E-G3OvW",
@@ -31508,7 +31508,7 @@
             "containerId": null,
             "originalText": "SQL",
             "lineHeight": 1.25,
-            "baseline": 25
+            "baseline": 24
           },
           {
             "type": "text",
@@ -31917,7 +31917,7 @@
             "containerId": null,
             "originalText": "Azure Analysis Services",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "3o7Xy98iZrNyHqs_KB9cV",
@@ -32950,7 +32950,7 @@
             "containerId": null,
             "originalText": "Azure Databricks",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "MLUjBus9Kg1XCYXAj1a9l",
@@ -33451,7 +33451,7 @@
             "containerId": null,
             "originalText": "Azure Synapse\n  Analytics",
             "lineHeight": 1.25,
-            "baseline": 44
+            "baseline": 43
           },
           {
             "type": "line",

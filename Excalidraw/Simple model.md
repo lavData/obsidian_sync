@@ -432,8 +432,8 @@ primedata ^gDf8kO3V
 		},
 		{
 			"type": "text",
-			"version": 1100,
-			"versionNonce": 973368748,
+			"version": 1103,
+			"versionNonce": 509810553,
 			"isDeleted": false,
 			"id": "05MGxbvh",
 			"fillStyle": "solid",
@@ -455,7 +455,7 @@ primedata ^gDf8kO3V
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1702525520994,
+			"updated": 1702656157373,
 			"link": null,
 			"locked": false,
 			"fontSize": 50.116386042329786,
@@ -538,7 +538,7 @@ primedata ^gDf8kO3V
 			"containerId": "Q7b5EJuv1rWMXYKFE6IzF",
 			"originalText": "data\nsource",
 			"lineHeight": 1.25,
-			"baseline": 77
+			"baseline": 76
 		},
 		{
 			"type": "diamond",
@@ -613,7 +613,7 @@ primedata ^gDf8kO3V
 			"containerId": "8VOwk337FnPUMAG6RLdO1",
 			"originalText": "primedata",
 			"lineHeight": 1.25,
-			"baseline": 32
+			"baseline": 31
 		},
 		{
 			"type": "diamond",
@@ -688,7 +688,7 @@ primedata ^gDf8kO3V
 			"containerId": "fjLt33RMrrpK4qYhETyNt",
 			"originalText": "clever\ntap",
 			"lineHeight": 1.25,
-			"baseline": 77
+			"baseline": 76
 		},
 		{
 			"type": "arrow",
@@ -736,8 +736,8 @@ primedata ^gDf8kO3V
 		},
 		{
 			"type": "arrow",
-			"version": 184,
-			"versionNonce": 1459238828,
+			"version": 191,
+			"versionNonce": 1540559609,
 			"isDeleted": false,
 			"id": "tuinn8nrRXr9lJGQV8Vli",
 			"fillStyle": "hachure",
@@ -759,7 +759,7 @@ primedata ^gDf8kO3V
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702525521553,
+			"updated": 1702656159844,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -784,8 +784,8 @@ primedata ^gDf8kO3V
 		},
 		{
 			"type": "arrow",
-			"version": 313,
-			"versionNonce": 1487823404,
+			"version": 320,
+			"versionNonce": 1774734297,
 			"isDeleted": false,
 			"id": "Ad8lha1v1BxUM1cDBwpqm",
 			"fillStyle": "hachure",
@@ -807,7 +807,7 @@ primedata ^gDf8kO3V
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1702525521553,
+			"updated": 1702656159844,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -850,10 +850,10 @@ primedata ^gDf8kO3V
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1018.6363636363635,
-		"scrollY": 685.6434659090909,
+		"scrollX": 1012.8947368421052,
+		"scrollY": 759.2080592105262,
 		"zoom": {
-			"value": 1.1
+			"value": 0.9500000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
