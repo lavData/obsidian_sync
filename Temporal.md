@@ -24,3 +24,6 @@
 
 Rule:  Số lần sử dụng dv của stylist: Tính trong vòng 1 năm
 
+---
+
+6929919
