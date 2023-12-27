@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "55aa25815eb2a7be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Circuit Breaker pattern.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c9bee5fc94c772de",
             "type": "leaf",
             "state": {
@@ -184,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temporal.md",
+                "file": "Circuit Breaker pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temporal.md",
+                "file": "Circuit Breaker pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temporal.md"
+                "file": "Circuit Breaker pattern.md"
               }
             }
           },
@@ -334,11 +346,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3fcc3ce2a0651389",
+  "active": "55aa25815eb2a7be",
   "lastOpenFiles": [
+    "attachments/Pasted image 20231227154648.png",
+    "Excalidraw/Drawing 2023-12-27 11.42.50.excalidraw.md",
+    "Circuit Breaker pattern.md",
+    "Temporal.md",
     "Convention commit in git.md",
     "Git Commit Message.md",
-    "Temporal.md",
     "Bigdata/Seminar.md",
     "Bigdata/attachments/Pasted image 20231215190819.png",
     "Bigdata/attachments",
@@ -365,11 +380,8 @@
     "Excalidraw/Data source.md",
     "Golang Finctional Options Pattern.md",
     "Excalidraw",
-    "templates/Anki Inline.md",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
-    "Templates/Anki Inline.md",
-    "templates/toggle.md",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",

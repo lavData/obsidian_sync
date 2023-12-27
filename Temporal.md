@@ -27,3 +27,15 @@ Rule:  Số lần sử dụng dv của stylist: Tính trong vòng 1 năm
 ---
 
 6929919
+
+
+
+------------
+- Em thấy mình đang misunderstanding ấy anh, em đang nói đến việc miss event bên em khi sử dụng table billservicehis. Lý do bị miss liên quan đến việc bọn em kéo data bằng cách sử dụng state management -> nếu record được chèn vào không theo thứ tự thời gian thì sẽ bị miss event.
+
+→ Do đó, nếu sử dụng field Created date và Update date của **billservicehis** thì đang có vấn đề khiến **miss event**.
+
+
+Em cần hiểu logic giữa billservice và billservicehis:
+- billservicehis chỉ là một replicate của billservice? Vậy nếu billservice có update gì, em cũng update theo ở bên em thì đảm bảo data sẽ đủ, đúng
+- Định nghĩ một bill hoàn thành bên anh là gì? Ở trong script Gen_CustomerInteractionLogsCDP em thấy anh chỉ lấy những record có IsDeleted = 0 và Pending = 0 ở table billservicehis.
