@@ -39,3 +39,15 @@ Rule:  Số lần sử dụng dv của stylist: Tính trong vòng 1 năm
 Em cần hiểu logic giữa billservice và billservicehis:
 - billservicehis chỉ là một replicate của billservice? Vậy nếu billservice có update gì, em cũng update theo ở bên em thì đảm bảo data sẽ đủ, đúng
 - Định nghĩ một bill hoàn thành bên anh là gì? Ở trong script Gen_CustomerInteractionLogsCDP em thấy anh chỉ lấy những record có IsDeleted = 0 và Pending = 0 ở table billservicehis.
+
+
+---
+
+# Clickhouse cleanup
+
+
+1. Check volume storage.
+2. Create table cleanup.
+3. Check accuracy
+4. Move data back
+5. 

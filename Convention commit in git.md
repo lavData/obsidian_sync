@@ -1,4 +1,4 @@
-#git #tec 
+#git #tech 
 
 ---
 
