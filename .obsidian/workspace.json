@@ -37,19 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temporal.md",
+                "file": "ReplacingMerge Tree.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4efcd6c6529e4a47",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
               }
             }
           },
@@ -192,9 +182,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8c7b7cbabddbfeee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Replication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -261,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temporal.md",
+                "file": "Data Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temporal.md",
+                "file": "Data Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temporal.md"
+                "file": "Data Replication.md"
               }
             }
           },
@@ -346,12 +348,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4efcd6c6529e4a47",
+  "active": "8c7b7cbabddbfeee",
   "lastOpenFiles": [
+    "ReplacingMerge Tree.md",
+    "Data Replication.md",
+    "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
+    "MergeTree.md",
+    "Optimistic Lock & Pessimistic Lock.md",
+    "Temporal.md",
     "Convention commit in git.md",
     "How to Take Smart Notes by SönkeAhrens Note.md",
     "Insulin.md",
-    "Temporal.md",
     "Circuit Breaker pattern.md",
     "attachments/Pasted image 20231227154648.png",
     "Excalidraw/Drawing 2023-12-27 11.42.50.excalidraw.md",
@@ -376,17 +383,12 @@
     "DuckDB.md",
     "Data Scaling.md",
     "CLI.md",
-    "Excalidraw/Airbyte]![[Drawing 2023-12-11 14.24.29.excalidraw.md",
-    "Excalidraw/Drawing 2023-12-11 14.24.29.excalidraw.md",
-    "Excalidraw/Model data.md",
-    "Excalidraw/Data source.md",
     "Excalidraw",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",
-    "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "attachments/Pasted image 20231004140259.png",
     "attachments/Emoji - ret hat.png",
     "attachments/Emoji - chicken.png",
