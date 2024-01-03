@@ -189,7 +189,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SummingMerge Tree.md",
+                "file": "AggregatingMergeTree.md",
                 "mode": "source",
                 "source": false
               }
@@ -263,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SummingMerge Tree.md",
+                "file": "AggregatingMergeTree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +280,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SummingMerge Tree.md",
+                "file": "AggregatingMergeTree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +303,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SummingMerge Tree.md"
+                "file": "AggregatingMergeTree.md"
               }
             }
           },
@@ -350,8 +350,9 @@
   },
   "active": "8c7b7cbabddbfeee",
   "lastOpenFiles": [
-    "Data Replication.md",
     "SummingMerge Tree.md",
+    "AggregatingMergeTree.md",
+    "Data Replication.md",
     "ReplacingMerge Tree.md",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "MergeTree.md",
@@ -382,7 +383,6 @@
     "templates/Anki Basic+.md",
     "Excalidraw/Staging.md",
     "DuckDB.md",
-    "Data Scaling.md",
     "Excalidraw",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
