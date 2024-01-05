@@ -4,199 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f785ae57c0aec5cc",
+        "id": "aad12774c0c91663",
         "type": "tabs",
         "children": [
           {
-            "id": "3eef02f41eea7101",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Bigdata/Recommender Systems.pdf"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "38948fc885575110",
+            "id": "600ef0212a895129",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git Commit Message.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fcc3ce2a0651389",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ReplacingMerge Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9bee5fc94c772de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Temporal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6e148fe93439731",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Anki Basic+.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4d4c07bf9e6d14d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/Anki Basic+.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5542697321d483ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Toeic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7735194deaec1795",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53b958aea74e5bf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4bdef0aacb5fba87",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Simple model.md"
-              }
-            }
-          },
-          {
-            "id": "e0f148fd5a220c1a",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Simple model.md"
-              }
-            }
-          },
-          {
-            "id": "69797adc680dc8e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28964926f4dc58bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is the Python Global Interpreter Lock (GIL).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ffb91754fa7bf0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What is the Python Global Interpreter Lock (GIL).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c3837c8a36608c84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Multi-processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c7b7cbabddbfeee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AggregatingMergeTree.md",
+                "file": "Convention commit in git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 15
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AggregatingMergeTree.md",
+                "file": "Convention commit in git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AggregatingMergeTree.md",
+                "file": "Convention commit in git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AggregatingMergeTree.md"
+                "file": "Convention commit in git.md"
               }
             }
           },
@@ -348,41 +171,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8c7b7cbabddbfeee",
+  "active": "600ef0212a895129",
   "lastOpenFiles": [
-    "SummingMerge Tree.md",
-    "AggregatingMergeTree.md",
-    "Data Replication.md",
-    "ReplacingMerge Tree.md",
-    "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
-    "MergeTree.md",
-    "Optimistic Lock & Pessimistic Lock.md",
-    "Temporal.md",
+    "Git Commit Message.md",
     "Convention commit in git.md",
+    "Temporal.md",
+    "CollapsingMergeTree.md",
+    "Multi-processing.md",
+    "What is the Python Global Interpreter Lock (GIL).md",
+    "Bigdata/Recommender Systems.pdf",
+    "MergeTree.md",
+    "ReplacingMerge Tree.md",
+    "templates/Anki Basic+.md",
+    "Toeic.md",
+    "Untitled.md",
+    "Excalidraw/Simple model.md",
+    "AggregatingMergeTree.md",
+    "SummingMerge Tree.md",
+    "Data Replication.md",
+    "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
+    "Optimistic Lock & Pessimistic Lock.md",
     "How to Take Smart Notes by SönkeAhrens Note.md",
     "Insulin.md",
     "Circuit Breaker pattern.md",
     "attachments/Pasted image 20231227154648.png",
     "Excalidraw/Drawing 2023-12-27 11.42.50.excalidraw.md",
-    "Git Commit Message.md",
     "Bigdata/Seminar.md",
     "Bigdata/attachments/Pasted image 20231215190819.png",
     "Bigdata/attachments",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
-    "Bigdata/Recommender Systems.pdf",
-    "Multi-processing.md",
     "attachments/Pasted image 20231214174848.png",
-    "What is the Python Global Interpreter Lock (GIL).md",
     "Mutex.md",
     "What is the CAP theorem.md",
-    "Toeic.md",
     "Trắc nghiệm TOEIC.md",
-    "Untitled.md",
-    "Excalidraw/Simple model.md",
     "Excalidraw/Airbyte.md",
-    "templates/Anki Basic+.md",
-    "Excalidraw/Staging.md",
-    "DuckDB.md",
     "Excalidraw",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",

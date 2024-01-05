@@ -51,3 +51,60 @@ Em cần hiểu logic giữa billservice và billservicehis:
 3. Check accuracy
 4. Move data back
 5. 
+
+
+-----
+Bởi vì engine CH mà team đang sử dụng (2024/1/3) là [ReplacingMergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/replacingmergetree), có nghĩa rằng có một số record duplicate chưa được clean up. Do đó, cần dùng `OPTIMIZE` statement to cleanup outdate data.
+
+# Why
+...
+
+# How
+Run the `OPTIMIZE` statement for each table that needs cleanup and statistics after the cleanup for a sanity check. Alert if have any deterioration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+CREATE TABLE UAct_replace
+(
+    UserID UInt64,
+    PageViews UInt8,
+    Duration UInt8,
+    Sign Int8
+)
+ENGINE = ReplacingMergeTree(UserId)
+PARTITION BY Sign
+ORDER By UserId;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

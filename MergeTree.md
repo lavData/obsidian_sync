@@ -5,6 +5,9 @@
 ---
 # [MergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/mergetree)
 
+## ORDER_BY
+ClickHouse uses the sorting key as a primary key if the primary key is not defined explicitly by the `PRIMARY KEY` clause.
+
 ## Data Storage
 - The merge mechanism does not guarantee that all rows with the same primary key will be in the same data part.
 	- Have two mode, `Wide` and `Compact`. `Wide`  stored in a separate file in a filesystem. `Compact` stored in one file.
@@ -12,6 +15,9 @@
 
 
 # Primary Keys and Indexes in Queries
+
+ClickHouse does not require a unique primary key. You can insert multiple rows with the same primary key.
+
 # Selecting the Primary Key
 
 Number of columns in the primary key is not explicitly limited. Can include more or fewer columns in the primary key. This may:
