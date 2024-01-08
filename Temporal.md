@@ -94,17 +94,18 @@ ORDER By UserId;
 
 
 
+k-----
+số profileId trong profile: 4631794
+
+số profileId trong event: 4677149
+j
+số profile chỉ có ở event: 250817
+i
+
+---
+
+Cho mình hỏi Cựu ước mang tính truyền miệng và thần thoại hơn Tân ước phải không ạ? Ví dụ người khổng lồ có phải là con người hay không hay là Chúa có tạo ra khủng long không. Nếu chỉ là mang tính thần thoại thì không có giá trị thực tế đúng không.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+----
+Table Profile relative, now use merge tree so can't cleanup outdate record and has flaw partition when partition by _iat , so it not good performance and can't claim data outdate when those in diiferent partition. 
