@@ -102,10 +102,32 @@ j
 số profile chỉ có ở event: 250817
 i
 
+----
+Table Profile relative, now use merge tree so can't cleanup outdate record and has flaw partition when partition by _iat , so it not good performance and can't claim data outdate when those in diiferent partition. 
+
+
 ---
 
-Cho mình hỏi Cựu ước mang tính truyền miệng và thần thoại hơn Tân ước phải không ạ? Ví dụ người khổng lồ có phải là con người hay không hay là Chúa có tạo ra khủng long không. Nếu chỉ là mang tính thần thoại thì không có giá trị thực tế đúng không.
+Lý do chọn phương án (drawback của việc chạy cronjob):
+- Có một job ở bên ngoài vào effect database thì khó kiểm soát các trường hợp. Không có contract giữa cronjob - database - eventprocessing.
+
+Logic làm:
+- Tạo một thread Scheduler sẽ trigger các STATEMENT mình muốn thao tác với database. 
+
+Rfeat!: ideal structure for scheduler
 
 
 ----
-Table Profile relative, now use merge tree so can't cleanup outdate record and has flaw partition when partition by _iat , so it not good performance and can't claim data outdate when those in diiferent partition. 
+ủi ro (thuần technical), không handle kĩ thì bị crash
+
+
+-----
+Có nhu cầu chạy các cron job nhưng vì không muốn một module bên ngoài modify các database do event-processing nên cần chạy các job này ngay bên trong event-processing
+
+There is a need to run various cron jobs, but to prevent an external module modifying handled database by event-processing. it is essential to execute these jobs directly within event-processing
+
+Cần một scheduler chạy background để trigger các job liên quan đến modify database hoặc report
+
+We need a background scheduler to trigger jobs
+
+Tạo mới module scheduler

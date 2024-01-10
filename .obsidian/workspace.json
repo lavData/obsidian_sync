@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Convention commit in git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "817f5ab9c226ec74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Temporal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18ccce5bfda97130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Temporal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "80136895dad4f53b",
@@ -171,11 +197,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "600ef0212a895129",
+  "active": "18ccce5bfda97130",
   "lastOpenFiles": [
     "Convention commit in git.md",
     "Git Commit Message.md",
+    "Re-rise Exception.md",
+    "Decorator Python.md",
+    "Excalidraw/Drawing 2024-01-09 17.04.55.excalidraw.md",
     "Temporal.md",
+    "Threading in Python.md",
+    "Excalidraw/Drawing 2024-01-09 10.02.14.excalidraw.md",
+    "ThreadPool in Python.md",
     "CollapsingMergeTree.md",
     "Multi-processing.md",
     "What is the Python Global Interpreter Lock (GIL).md",
@@ -196,15 +228,10 @@
     "Circuit Breaker pattern.md",
     "attachments/Pasted image 20231227154648.png",
     "Excalidraw/Drawing 2023-12-27 11.42.50.excalidraw.md",
-    "Bigdata/Seminar.md",
     "Bigdata/attachments/Pasted image 20231215190819.png",
     "Bigdata/attachments",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
     "attachments/Pasted image 20231214174848.png",
-    "Mutex.md",
-    "What is the CAP theorem.md",
-    "Trắc nghiệm TOEIC.md",
-    "Excalidraw/Airbyte.md",
     "Excalidraw",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
