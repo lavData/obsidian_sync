@@ -3,7 +3,11 @@
 ---
 # [CollapsingMergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/collapsingmergetree#table_engine-collapsingmergetree)
 
+---
+> CollapsingMergeTree asynchronously deletes (collapses) pairs of rows if all of the fields in a sorting key (ORDER BY) are equivalent except the particular field Sign, which can have 1 and -1 values. **Rows without a pair are kept**
+
 ## Collapsing
+
 
 ### Data
 

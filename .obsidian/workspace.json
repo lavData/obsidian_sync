@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temporal.md",
+                "file": "VersionedCollapsingMergeTree.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temporal.md",
+                "file": "VersionedCollapsingMergeTree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temporal.md",
+                "file": "VersionedCollapsingMergeTree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temporal.md"
+                "file": "VersionedCollapsingMergeTree.md"
               }
             }
           },
@@ -199,16 +199,19 @@
   },
   "active": "18ccce5bfda97130",
   "lastOpenFiles": [
+    "SummingMerge Tree.md",
+    "VersionedCollapsingMergeTree.md",
+    "AggregatingMergeTree.md",
+    "CollapsingMergeTree.md",
     "Convention commit in git.md",
+    "Temporal.md",
     "Git Commit Message.md",
     "Re-rise Exception.md",
     "Decorator Python.md",
     "Excalidraw/Drawing 2024-01-09 17.04.55.excalidraw.md",
-    "Temporal.md",
     "Threading in Python.md",
     "Excalidraw/Drawing 2024-01-09 10.02.14.excalidraw.md",
     "ThreadPool in Python.md",
-    "CollapsingMergeTree.md",
     "Multi-processing.md",
     "What is the Python Global Interpreter Lock (GIL).md",
     "Bigdata/Recommender Systems.pdf",
@@ -218,8 +221,6 @@
     "Toeic.md",
     "Untitled.md",
     "Excalidraw/Simple model.md",
-    "AggregatingMergeTree.md",
-    "SummingMerge Tree.md",
     "Data Replication.md",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "Optimistic Lock & Pessimistic Lock.md",
@@ -227,7 +228,6 @@
     "Insulin.md",
     "Circuit Breaker pattern.md",
     "attachments/Pasted image 20231227154648.png",
-    "Excalidraw/Drawing 2023-12-27 11.42.50.excalidraw.md",
     "Bigdata/attachments/Pasted image 20231215190819.png",
     "Bigdata/attachments",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
