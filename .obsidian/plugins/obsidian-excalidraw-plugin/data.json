@@ -310,7 +310,7 @@
             "containerId": null,
             "originalText": "Azure Event Hubs",
             "lineHeight": 1.25,
-            "baseline": 49
+            "baseline": 48
           },
           {
             "type": "rectangle",
@@ -2197,7 +2197,7 @@
             "containerId": null,
             "originalText": "Azure Database for MariaDB",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           }
         ],
         "created": 1665683916118,
@@ -3643,7 +3643,7 @@
             "containerId": null,
             "originalText": "Azure Database for PostgreSQL",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           },
           {
             "type": "line",
@@ -4608,7 +4608,7 @@
             "containerId": null,
             "originalText": "Azure Data Explorer",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           }
         ],
         "created": 1665682639787,
@@ -5211,7 +5211,7 @@
             "containerId": null,
             "originalText": "Azure Data Factory",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           }
         ],
         "created": 1665679350144,
@@ -17263,7 +17263,7 @@
             "containerId": null,
             "originalText": "Azure CosmosDB",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           }
         ],
         "created": 1665677951048,
@@ -21489,7 +21489,7 @@
             "containerId": null,
             "originalText": "Azure Cache for Redis",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           }
         ],
         "created": 1665671914787,
@@ -24420,7 +24420,7 @@
             "containerId": null,
             "originalText": "Azure SQL Database",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           },
           {
             "type": "text",
@@ -27467,7 +27467,7 @@
             "containerId": null,
             "originalText": "$",
             "lineHeight": 1.2499999999999998,
-            "baseline": 52
+            "baseline": 51
           },
           {
             "type": "line",
@@ -31508,7 +31508,7 @@
             "containerId": null,
             "originalText": "SQL",
             "lineHeight": 1.25,
-            "baseline": 24
+            "baseline": 25
           },
           {
             "type": "text",
@@ -33451,7 +33451,7 @@
             "containerId": null,
             "originalText": "Azure Synapse\n  Analytics",
             "lineHeight": 1.25,
-            "baseline": 43
+            "baseline": 44
           },
           {
             "type": "line",

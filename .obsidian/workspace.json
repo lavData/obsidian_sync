@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "aad12774c0c91663",
+        "id": "dab78e6ff75f62f6",
         "type": "tabs",
         "children": [
           {
-            "id": "600ef0212a895129",
+            "id": "a5986f45579e6593",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Convention commit in git.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "817f5ab9c226ec74",
+            "id": "5c2ed86a343603ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temporal.md",
+                "file": "Đơn xin nghỉ việc.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "18ccce5bfda97130",
+            "id": "2f5df45c9c390d42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VersionedCollapsingMergeTree.md",
+                "file": "Difference between POST and PUT methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VersionedCollapsingMergeTree.md",
+                "file": "Difference between POST and PUT methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VersionedCollapsingMergeTree.md",
+                "file": "Difference between POST and PUT methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VersionedCollapsingMergeTree.md"
+                "file": "Difference between POST and PUT methods.md"
               }
             }
           },
@@ -197,36 +197,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "18ccce5bfda97130",
+  "active": "2f5df45c9c390d42",
   "lastOpenFiles": [
-    "SummingMerge Tree.md",
+    "What is the Language Server Protocol?.md",
+    "Difference between POST and PUT methods.md",
+    "TODO.md",
+    "Untitled.md",
+    "Convention commit in git.md",
+    "Python Async.md",
+    "Excalidraw/Drawing 2024-02-19 08.07.20.excalidraw.md",
+    "Đơn xin nghỉ việc.md",
+    "Excalidraw/Drawing 2024-02-05 14.41.21.excalidraw.md",
+    "Threading in Python.md",
+    "Context manager.md",
+    "Mutex.md",
     "VersionedCollapsingMergeTree.md",
+    "SummingMerge Tree.md",
+    "Workers and Jobs.md",
     "AggregatingMergeTree.md",
     "CollapsingMergeTree.md",
-    "Convention commit in git.md",
-    "Temporal.md",
     "Git Commit Message.md",
     "Re-rise Exception.md",
     "Decorator Python.md",
     "Excalidraw/Drawing 2024-01-09 17.04.55.excalidraw.md",
-    "Threading in Python.md",
     "Excalidraw/Drawing 2024-01-09 10.02.14.excalidraw.md",
     "ThreadPool in Python.md",
     "Multi-processing.md",
     "What is the Python Global Interpreter Lock (GIL).md",
     "Bigdata/Recommender Systems.pdf",
     "MergeTree.md",
-    "ReplacingMerge Tree.md",
-    "templates/Anki Basic+.md",
-    "Toeic.md",
-    "Untitled.md",
-    "Excalidraw/Simple model.md",
-    "Data Replication.md",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
-    "Optimistic Lock & Pessimistic Lock.md",
-    "How to Take Smart Notes by SönkeAhrens Note.md",
-    "Insulin.md",
-    "Circuit Breaker pattern.md",
     "attachments/Pasted image 20231227154648.png",
     "Bigdata/attachments/Pasted image 20231215190819.png",
     "Bigdata/attachments",
@@ -247,6 +247,4 @@
     "attachments/Pasted image 20230925205218.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Untitled 2.canvas"
-  ]
-}
+ 

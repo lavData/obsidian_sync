@@ -6,7 +6,7 @@
 
 ---
 
-Airbyte uses a independent component is [[Temporal]]. Temporal be used like orchestrate workflow
+Airbyte uses a independent component is [[Đơn xin nghỉ việc]]. Temporal be used like orchestrate workflow
 
 [[Airbyte Scale Workflow Orchestratrion Temporal]]
 
