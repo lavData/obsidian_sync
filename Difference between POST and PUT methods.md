@@ -7,4 +7,4 @@
 
 - Name the URL objects you create explicitly, or let the server decide? If you name them then use PUT. If you let the server decide them use POST
 - PUT is defined to assume idempotency, so if you PUT and object twice, it should have no additional effect.
-- Can update or create a resource with PUT with the same object URL
+- Can update or create a resource with PUT with the same object URLP

@@ -37,9 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Difference between POST and PUT methods.md",
+                "file": "EDD Data Destination.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "100eb941dec24e8f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-11 14.25.46.excalidraw.md"
               }
             }
           }
@@ -112,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Difference between POST and PUT methods.md",
+                "file": "EDD Data Destination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Difference between POST and PUT methods.md",
+                "file": "EDD Data Destination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Difference between POST and PUT methods.md"
+                "file": "EDD Data Destination.md"
               }
             }
           },
@@ -169,14 +179,15 @@
             }
           },
           {
-            "id": "4548351ee6aa23a4",
+            "id": "567db37a9421a501",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -199,8 +210,11 @@
   },
   "active": "2f5df45c9c390d42",
   "lastOpenFiles": [
-    "What is the Language Server Protocol?.md",
     "Difference between POST and PUT methods.md",
+    "EDD Data Destination.md",
+    "Excalidraw/Drawing 2024-03-11 14.25.46.excalidraw.md",
+    "What different btw Terraform and Kubernetes?.md",
+    "What is the Language Server Protocol?.md",
     "TODO.md",
     "Untitled.md",
     "Convention commit in git.md",
@@ -222,10 +236,7 @@
     "Excalidraw/Drawing 2024-01-09 17.04.55.excalidraw.md",
     "Excalidraw/Drawing 2024-01-09 10.02.14.excalidraw.md",
     "ThreadPool in Python.md",
-    "Multi-processing.md",
-    "What is the Python Global Interpreter Lock (GIL).md",
     "Bigdata/Recommender Systems.pdf",
-    "MergeTree.md",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "attachments/Pasted image 20231227154648.png",
     "Bigdata/attachments/Pasted image 20231215190819.png",
@@ -247,4 +258,6 @@
     "attachments/Pasted image 20230925205218.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
- 
+    "Untitled 2.canvas"
+  ]
+}
