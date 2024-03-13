@@ -117,4 +117,5 @@ Does python is needed ?
 To indicate this is method is class level.
 
 10. @staticmethod
-11. @property
+To operate without property of class 
+1. @property

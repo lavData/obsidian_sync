@@ -13,9 +13,97 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8 Built-in Python Decorators to Write Elegant Code.md",
+                "file": "EDD Data Destination.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "1bcd50908a33bfae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EDD Data Destination.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb67ef958f3a80b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EDD Data Destination.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "694570c5058631da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EDD Data Destination.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b14d013fc0bd35d7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Chart flow EDD destination.md"
+              }
+            }
+          },
+          {
+            "id": "afc8392fb62cc0b9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Chart flow EDD destination.md"
+              }
+            }
+          },
+          {
+            "id": "f19cb1b17c5fed9a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/EDD Destination Select Destination.md"
+              }
+            }
+          },
+          {
+            "id": "367269515b655a66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EDD Data Destination.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4bb7fca1b83aa3b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "attachments/Pasted image 20240313114932.png"
               }
             }
           },
@@ -25,11 +113,12 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-11 14.25.46.excalidraw.md"
+                "file": "Excalidraw/Chart flow EDD destination.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -58,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tec",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +164,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8 Built-in Python Decorators to Write Elegant Code.md",
+                "file": "EDD Data Destination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "8 Built-in Python Decorators to Write Elegant Code.md",
+                "file": "EDD Data Destination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8 Built-in Python Decorators to Write Elegant Code.md"
+                "file": "EDD Data Destination.md"
               }
             }
           },
@@ -152,17 +240,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "567db37a9421a501",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -183,20 +263,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f5df45c9c390d42",
+  "active": "694570c5058631da",
   "lastOpenFiles": [
+    "attachments/Pasted image 20240313151922.png",
+    "attachments/Pasted image 20240313141402.png",
     "EDD Data Destination.md",
+    "attachments/Pasted image 20240313141451.png",
+    "attachments/Pasted image 20240313115131.png",
+    "attachments/Pasted image 20240313135957.png",
+    "attachments/Pasted image 20240313114932.png",
+    "attachments/Pasted image 20240313114932 1.png",
+    "Excalidraw/EDD Destination Transform.md",
+    "Excalidraw/Chart flow EDD destination.md",
+    "Excalidraw/EDD Destination Select Destination.md",
+    "Excalidraw/EDD Destination Sync.md",
+    "attachments/Pasted image 20240313141357.png",
+    "Excalidraw/EDD destination Create Destination.md",
+    "attachments/Pasted image 20240313110750.png",
+    "attachments/Pasted image 20240313110740.png",
+    "Python Async.md",
     "8 Built-in Python Decorators to Write Elegant Code.md",
-    "attachments/Pasted image 20240312145042.png",
-    "attachments/Pasted image 20240312144718.png",
-    "Excalidraw/Drawing 2024-03-11 14.25.46.excalidraw.md",
     "TODO.md",
     "Difference between POST and PUT methods.md",
     "What different btw Terraform and Kubernetes?.md",
     "What is the Language Server Protocol?.md",
     "Untitled.md",
     "Convention commit in git.md",
-    "Python Async.md",
     "Excalidraw/Drawing 2024-02-19 08.07.20.excalidraw.md",
     "Đơn xin nghỉ việc.md",
     "Excalidraw/Drawing 2024-02-05 14.41.21.excalidraw.md",
@@ -208,29 +300,16 @@
     "Workers and Jobs.md",
     "AggregatingMergeTree.md",
     "CollapsingMergeTree.md",
-    "Git Commit Message.md",
-    "Re-rise Exception.md",
-    "Decorator Python.md",
-    "Excalidraw/Drawing 2024-01-09 17.04.55.excalidraw.md",
-    "Excalidraw/Drawing 2024-01-09 10.02.14.excalidraw.md",
     "Bigdata/Recommender Systems.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
-    "attachments/Pasted image 20231227154648.png",
-    "Bigdata/attachments/Pasted image 20231215190819.png",
     "Bigdata/attachments",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-WordEmbeddings.pdf",
-    "attachments/Pasted image 20231214174848.png",
     "Excalidraw",
     "Bigdata/[Paper] 2018_Outer Product-based Neural Collaborative Filtering.pdf",
     "Bigdata/[Paper] 2017_Neural Collaborative Filtering.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-SentimentClassification.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/2023-CSC14114-SentimentAnalysis-BasicConcepts.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Sentiment analysis using deep learning architectures A Review.pdf",
-    "attachments/Pasted image 20231004140259.png",
-    "attachments/Emoji - ret hat.png",
-    "attachments/Emoji - chicken.png",
-    "icons/Anki-icon.svg",
-    "attachments/Pasted image 20230925205246.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

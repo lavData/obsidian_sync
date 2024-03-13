@@ -1,9 +1,10 @@
-![[Pasted image 20240312144718.png]]
+![[Pasted image 20240313114932.png]]
 API Airbyte có 2 loại: [Detail](https://docs.airbyte.com/api-documentation) 
 - Public API
-- Private API → Dùng cái này, mặc dù "Airbyte does NOT have active commitments to support this API long-term. Users utilize the Config API, at their own risk" nhưng có đầy đủ các API để manipulate với các object trong Airbyte, cũng như không cần maintain Public API (bởi vì Public API là một service tách biệt, không chung với Airbyte Server)
+- Private API → Dùng cái này, mặc dù "Airbyte does NOT have active commitments to support this API long-term. Users utilize the Config API, at their own risk" nhưng có đầy đủ các API để manipulate với các object trong Airbyte, cũng như không cần maintain Public API (bởi vì Public API là một service tách biệt, không chung với Airbyte Server). Chưa chốt
+Meta router đóng vai trò như một handler xử lí các request của WebApp và đưa cho Airbyte Server, hạn chế tối đa việc tự quản lý state của các Object trong Airbyte, hiện tại chỉ quản lý phần boundary config cho Destination Connector.
 # Create Destination
-
+![[Pasted image 20240313115131.png]]
 - Get all destination connector
 - Show UI from config of connector
 - Run check and post config if check success.
@@ -63,17 +64,17 @@ curl --request POST \
 }
 
 ```
-### Clevertap Destination
-Riêng với CleverTap, design trong figma hiện tại config bị chia thành 2 phần, 1 phần tạm gọi là config Universal (ID, passcode, region), config còn lại thì được chọn khi sync (data sync option)
-Vậy ở bước này cần làm gì?  ❓
+### Side Effect
+Riêng với CleverTap, design trong figma hiện tại config bị chia thành 2 phần, 1 phần tạm gọi là config Universal (ID, passcode, region), config còn lại thì được chọn khi sync (data sync option) ❗ Điều này sẽ khiến với mỗi lần sync, khi ta chọn CT sync đi event hay profile thì nó đã thay đổi config cho toàn bộ sync có CT.
+Vậy ở bước này cần làm gì?  ❓ Move phần Sync option (Events, Profile) sang cho Transfomer Module, làm cho CleverTap Destination generic nhất.
 
 # Create Sync
 
 - Select model
-- Select Destination
+- Select Destinatiojn
 - Configure sync
 ## Select Model
-
+![[Pasted image 20240313141451.png]]
 Bước này ngầm định là tạo một connector Source PrimeData **MỚI**, nghĩa là với mỗi lần sync ta phải tạo một connector Source PrimeData. 
 Information: Các config được dùng ở bước này là lựa chọn sync options
 - Events
@@ -85,11 +86,13 @@ Information: Các config được dùng ở bước này là lựa chọn sync o
 Implement: Khác với tạo Destination Connector (UI sẽ follow vào spec Connector Definition),l thìll ở phần này, các config sẽ được Front-End hard code cách hiển thị và tên field trong config. Khi bấm **Continue**, sẽ dùng API Create Source, keep source
 [Source API](https://airbyte-public-api-docs.s3.us-east-2.amazonaws.com/rapidoc-api-docs.html#post-/v1/sources/create)
 ## Select Destination
+![[Pasted image 20240313141402.png]]
 Chọn Destination cho việc sync. Chỉ lấy các Destination Instant được tạo từ Airbyte WhiteLable
 Implement: Dùng API List configured destinations for a workspace và filter các Destination nào có name với prefix nào là WhiteLabel-
 [Source API](https://airbyte-public-api-docs.s3.us-east-2.amazonaws.com/rapidoc-api-docs.html#post-/v1/destinations/list)
 
 ## Configure Sync
+![[Pasted image 20240313151922.png]]
 Nhiệm vụ chính của phần này là chọn property nào để sync hoặc rename property. Vậy flow như sau: Discover Source → Lấy các properties show ở UI → Convert các transform này thành jq (nhiệm vụ của Prime BackEnd) → Update Source PrimeData bằng configs transform mới này. → Tạo connectio
 Implement: 
 - Discover Schema Source dùng API [Discover the schema catalog of the source](https://airbyte-public-api-docs.s3.us-east-2.amazonaws.com/rapidoc-api-docs.html#post-/v1/sources/discover_schema), dùng response trả về để save Schema này [Auto propagate the change on a catalog to a catalog saved in the DB](https://airbyte-public-api-docs.s3.us-east-2.amazonaws.com/rapidoc-api-docs.html#post-/v1/sources/apply_schema_changes) . Vây còn các config như: Sync Mode, Cursor field?
@@ -100,9 +103,3 @@ Implement:
 # Manage Sync
 
 - Get all connection
-# Concepts
-## Connector config
-Sẽ chia thành 2 loại config: 
-- Config Authenticate, timeZone (initial config)
-- Object config hay Dynamic Config (sẽ được config khi setup sync)
-❓ Có cần nhu cầu này không?
