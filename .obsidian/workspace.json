@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EDD Data Destination.md",
+                "file": "8 Built-in Python Decorators to Write Elegant Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EDD Data Destination.md",
+                "file": "8 Built-in Python Decorators to Write Elegant Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EDD Data Destination.md",
+                "file": "8 Built-in Python Decorators to Write Elegant Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EDD Data Destination.md"
+                "file": "8 Built-in Python Decorators to Write Elegant Code.md"
               }
             }
           },
@@ -185,11 +185,12 @@
   },
   "active": "2f5df45c9c390d42",
   "lastOpenFiles": [
+    "EDD Data Destination.md",
+    "8 Built-in Python Decorators to Write Elegant Code.md",
     "attachments/Pasted image 20240312145042.png",
     "attachments/Pasted image 20240312144718.png",
     "Excalidraw/Drawing 2024-03-11 14.25.46.excalidraw.md",
     "TODO.md",
-    "EDD Data Destination.md",
     "Difference between POST and PUT methods.md",
     "What different btw Terraform and Kubernetes?.md",
     "What is the Language Server Protocol?.md",
@@ -230,7 +231,6 @@
     "attachments/Emoji - chicken.png",
     "icons/Anki-icon.svg",
     "attachments/Pasted image 20230925205246.png",
-    "attachments/Pasted image 20230925205232.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
