@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5986f45579e6593",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c2ed86a343603ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Đơn xin nghỉ việc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2f5df45c9c390d42",
             "type": "leaf",
             "state": {
@@ -53,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,12 +185,14 @@
   },
   "active": "2f5df45c9c390d42",
   "lastOpenFiles": [
-    "Difference between POST and PUT methods.md",
-    "EDD Data Destination.md",
+    "attachments/Pasted image 20240312145042.png",
+    "attachments/Pasted image 20240312144718.png",
     "Excalidraw/Drawing 2024-03-11 14.25.46.excalidraw.md",
+    "TODO.md",
+    "EDD Data Destination.md",
+    "Difference between POST and PUT methods.md",
     "What different btw Terraform and Kubernetes?.md",
     "What is the Language Server Protocol?.md",
-    "TODO.md",
     "Untitled.md",
     "Convention commit in git.md",
     "Python Async.md",
@@ -235,7 +212,6 @@
     "Decorator Python.md",
     "Excalidraw/Drawing 2024-01-09 17.04.55.excalidraw.md",
     "Excalidraw/Drawing 2024-01-09 10.02.14.excalidraw.md",
-    "ThreadPool in Python.md",
     "Bigdata/Recommender Systems.pdf",
     "Bigdata/Topic 2 Sentiment Analysis/[Paper] Deep Learning Based Text Classification A Comprehensive Review.pdf",
     "attachments/Pasted image 20231227154648.png",
@@ -255,7 +231,6 @@
     "icons/Anki-icon.svg",
     "attachments/Pasted image 20230925205246.png",
     "attachments/Pasted image 20230925205232.png",
-    "attachments/Pasted image 20230925205218.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
